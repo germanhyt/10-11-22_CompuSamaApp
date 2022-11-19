@@ -5,8 +5,6 @@ const server = http.createServer(app);
 const logger = require('morgan');
 const cors = require('cors');
 
- 
-
 const port = process.env.PORT || 3000;
 
 app.use(logger('dev'));
@@ -21,14 +19,20 @@ app.disable('x-powered-by');
 
 app.set('port', port);
 
-server.listen(3000,'192.168.1.7' || 'localhost', function() {
-    console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...') 
+server.listen(3000,'192.168.1.62' || 'localhost', function() {// la ip depende de la pc
+    console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
 });
 
 app.get('/', (req,res) => {
     res.send('Ruta raiz backend');
 
 });
+
+app.get('/test', (req,res) => {
+    res.send('Esta es la ruta TEST');
+
+});
+
 
 app.use((err, req, res, next) => {
     console.log(err);
