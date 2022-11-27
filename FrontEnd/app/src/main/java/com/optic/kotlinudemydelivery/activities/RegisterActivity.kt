@@ -11,6 +11,12 @@ import android.widget.ImageView
 import android.widget.Toast
 import com.google.android.material.tabs.TabLayout.TabGravity
 import com.optic.kotlinudemydelivery.R
+import com.optic.kotlinudemydelivery.models.ResponseHttp
+import com.optic.kotlinudemydelivery.models.User
+import com.optic.kotlinudemydelivery.providers.UsersProvider
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -24,6 +30,8 @@ class RegisterActivity : AppCompatActivity() {
     var editTextPassword: EditText? = null
     var editTextConfirmPassword: EditText? = null
     var buttonRegister: Button? = null
+
+    var usersProvider = UsersProvider()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,17 +63,35 @@ class RegisterActivity : AppCompatActivity() {
         val confirmPassword = editTextConfirmPassword?.text.toString()
 
         if(isValidForm(name,lastname,email,phone,password,confirmPassword)){
-            Toast.makeText(this,"El formulario es valido", Toast.LENGTH_SHORT).show()
+
+            val user = User(
+                name = name,
+                lastname = lastname,
+                email = email,
+                phone = phone,
+                password = password
+            )
+
+            usersProvider.register(user)?.enqueue(object : Callback<ResponseHttp> {
+                override fun onResponse(
+                    call: Call<ResponseHttp>,
+                    response: Response<ResponseHttp>
+                ) {
+                    Toast.makeText(this@RegisterActivity, response.body()?.message, Toast.LENGTH_LONG).show()
+
+                    Log.d(TAG,"Response: ${response}")
+                    Log.d(TAG,"Body: ${response.body()}")
+                }
+
+                override fun onFailure(call: Call<ResponseHttp>, t: Throwable) {
+                    Log.d(TAG, "Se produjo un error ${t.message}")
+                    Toast.makeText(this@RegisterActivity,"Se produjo un error ${t.message}", Toast.LENGTH_LONG).show()
+                }
+
+            })
 
         }
 
-
-        Log.d(TAG,"El nombre es: $name")
-        Log.d(TAG,"El apellido es: $lastname")
-        Log.d(TAG,"El email es: $email")
-        Log.d(TAG,"El telefono es: $phone")
-        Log.d(TAG,"El password es: $password")
-        Log.d(TAG,"El confirm password es: $confirmPassword")
     }
 
     private fun isValidForm(
