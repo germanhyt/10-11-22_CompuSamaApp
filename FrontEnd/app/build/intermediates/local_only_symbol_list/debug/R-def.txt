@@ -22,6 +22,7 @@ font catalish_huntera
 font indigo_daisy
 font roboto_regular
 id btn_login
+id btn_logout
 id btn_register
 id edittext_confirm_password
 id edittext_email
@@ -31,6 +32,7 @@ id edittext_password
 id edittext_phone
 id imageview_go_to_login
 id imageview_go_to_register
+layout activity_client_home
 layout activity_main
 layout activity_register
 mipmap ic_launcher
