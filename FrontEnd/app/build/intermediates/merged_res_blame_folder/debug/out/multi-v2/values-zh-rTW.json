@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-27:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "6897",
-                        "endColumns": "100",
-                        "endOffsets": "6993"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "from": {
@@ -54,6 +37,23 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,66,93,106,72,61,77,59,59,77,57,55,59,57,53,84,55,57,53,64,91,73,76,119,62,62,76,49,50,65,62,67,77,60,70,66,61,78,64,82,84,73,63,75,47,63,75,77,61,63,62,79,76,75,76,53,54,68",
                         "endOffsets": "292,2925,3019,3126,3199,3261,3339,3399,3459,3537,3595,3651,3711,3769,3823,3908,3964,4022,4076,4141,4233,4307,4384,4504,4567,4630,4707,4757,4808,4874,4937,5005,5083,5144,5215,5282,5344,5423,5488,5571,5656,5730,5794,5870,5918,5982,6058,6136,6198,6262,6325,6405,6482,6558,6635,6689,6744,6813"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\f3889f18d4f26e70cef4e17d11226053\\transformed\\core-1.9.0\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "6897",
+                        "endColumns": "100",
+                        "endOffsets": "6993"
                     }
                 }
             ]

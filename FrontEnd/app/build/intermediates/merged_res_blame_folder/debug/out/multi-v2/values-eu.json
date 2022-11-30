@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-27:/values-eu/values-eu.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-eu\\values-eu.xml",
@@ -23,23 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-eu\\values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7681",
-                        "endColumns": "100",
-                        "endOffsets": "7777"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -54,6 +37,23 @@
                         "startOffsets": "325,434,532,642,728,834,958,1044,1125,1217,1311,1407,1501,1602,1696,1792,1889,1981,2074,2156,2265,2374,2473,2582,2689,2800,2971,7598",
                         "endColumns": "108,97,109,85,105,123,85,80,91,93,95,93,100,93,95,96,91,92,81,108,108,98,108,106,110,170,98,82",
                         "endOffsets": "429,527,637,723,829,953,1039,1120,1212,1306,1402,1496,1597,1691,1787,1884,1976,2069,2151,2260,2369,2468,2577,2684,2795,2966,3065,7676"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\f3889f18d4f26e70cef4e17d11226053\\transformed\\core-1.9.0\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7681",
+                        "endColumns": "100",
+                        "endOffsets": "7777"
                     }
                 }
             ]

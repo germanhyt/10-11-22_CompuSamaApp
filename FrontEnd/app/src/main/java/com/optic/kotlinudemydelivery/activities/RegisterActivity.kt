@@ -10,10 +10,13 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.google.android.material.tabs.TabLayout.TabGravity
+import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
+import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
 import com.optic.kotlinudemydelivery.models.ResponseHttp
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.providers.UsersProvider
+import com.optic.kotlinudemydelivery.utils.SharedPref
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -50,10 +53,6 @@ class RegisterActivity : AppCompatActivity() {
         buttonRegister?.setOnClickListener{ register()}
     }
 
-    fun String.isEmailValid(): Boolean {
-        return !TextUtils.isEmpty(this) && android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
-    }
-
     private fun register(){
         val name = editTextName?.text.toString()
         val lastname = editTextLastName?.text.toString()
@@ -73,10 +72,13 @@ class RegisterActivity : AppCompatActivity() {
             )
 
             usersProvider.register(user)?.enqueue(object : Callback<ResponseHttp> {
-                override fun onResponse(
-                    call: Call<ResponseHttp>,
-                    response: Response<ResponseHttp>
-                ) {
+                override fun onResponse( call: Call<ResponseHttp>, response: Response<ResponseHttp>) {
+
+                    if(response.body()?.isSuccess == true){
+                        saveUserInSession(response.body()?.data.toString())
+                        goToClientHome()
+                    }
+
                     Toast.makeText(this@RegisterActivity, response.body()?.message, Toast.LENGTH_LONG).show()
 
                     Log.d(TAG,"Response: ${response}")
@@ -92,6 +94,22 @@ class RegisterActivity : AppCompatActivity() {
 
         }
 
+    }
+
+    private  fun goToClientHome(){
+        val i = Intent(this, ClientHomeActivity::class.java)
+        startActivity(i)
+    }
+
+    private fun saveUserInSession(data: String){
+        val sharedPref = SharedPref(this)
+        val gson = Gson()
+        val user = gson.fromJson(data, User::class.java)
+        sharedPref.save("user",user)
+    }
+
+    fun String.isEmailValid(): Boolean {
+        return !TextUtils.isEmpty(this) && android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
     }
 
     private fun isValidForm(
@@ -128,6 +146,8 @@ class RegisterActivity : AppCompatActivity() {
 
             return false
         }
+
+
 
         if(!email.isEmailValid()) {
             Toast.makeText(this,"El email no es valido", Toast.LENGTH_SHORT).show()

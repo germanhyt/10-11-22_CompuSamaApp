@@ -36,4 +36,56 @@ CREATE TABLE user_has_roles(
 	FOREIGN KEY(id_rol) REFERENCES roles(id) ON UPDATE CASCADE ON DELETE CASCADE,
 	PRIMARY KEY(id_user,id_rol)
 
-) */
+) 
+
+INSERT INTO roles(
+	name,
+	route,
+	image,
+	created_at,
+	updated_ad
+)
+VALUES(
+	'CLIENTE'
+	'client/home'
+	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png'
+	'2022-11-04'
+	'2022-11-04'
+
+);
+
+
+INSERT INTO roles(
+	name,
+	route,
+	image,
+	created_at,
+	updated_ad
+)
+VALUES(
+	'RESTAURANTE'
+	'restaurant/home'
+	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png'
+	'2022-11-04'
+	'2022-11-04'
+
+);
+
+INSERT INTO roles(
+	name,
+	route,
+	image,
+	created_at,
+	updated_ad
+)
+VALUES(
+	'REPARTIDOR'
+	'delivery/home'
+	'https://cdn-icons-png.flaticon.com/512/2301/2301898.png'
+	'2022-11-04'
+	'2022-11-04'
+
+);
+
+
+*/

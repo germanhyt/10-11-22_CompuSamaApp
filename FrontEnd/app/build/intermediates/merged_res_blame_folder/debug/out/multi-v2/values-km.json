@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-27:/values-km/values-km.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-km/values-km.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7630",
-                        "endColumns": "100",
-                        "endOffsets": "7726"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-km\\values-km.xml",
                     "from": {
@@ -37,6 +20,23 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,79,99,111,79,64,93,69,61,86,64,58,64,60,56,118,57,60,56,70,129,85,77,137,74,70,96,54,55,65,79,89,85,78,76,69,74,87,69,99,98,73,75,106,53,72,90,95,61,63,62,98,97,91,99,57,59,82",
                         "endOffsets": "314,3082,3182,3294,3374,3439,3533,3603,3665,3752,3817,3876,3941,4002,4059,4178,4236,4297,4354,4425,4555,4641,4719,4857,4932,5003,5100,5155,5211,5277,5357,5447,5533,5612,5689,5759,5834,5922,5992,6092,6191,6265,6341,6448,6502,6575,6666,6762,6824,6888,6951,7050,7148,7240,7340,7398,7458,7541"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\f3889f18d4f26e70cef4e17d11226053\\transformed\\core-1.9.0\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7630",
+                        "endColumns": "100",
+                        "endOffsets": "7726"
                     }
                 },
                 {

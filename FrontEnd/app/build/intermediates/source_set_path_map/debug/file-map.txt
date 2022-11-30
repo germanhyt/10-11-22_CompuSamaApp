@@ -20,13 +20,14 @@ com.optic.kotlinudemydelivery.app-recyclerview-1.1.0-18 C:\Users\Alex\.gradle\ca
 com.optic.kotlinudemydelivery.app-viewpager2-1.0.0-19 C:\Users\Alex\.gradle\caches\transforms-3\e2ead5f317d22088c48cad1a61f8b969\transformed\viewpager2-1.0.0\res
 com.optic.kotlinudemydelivery.app-coordinatorlayout-1.1.0-20 C:\Users\Alex\.gradle\caches\transforms-3\e5a7f5c955953cc9d13feeef1215b998\transformed\coordinatorlayout-1.1.0\res
 com.optic.kotlinudemydelivery.app-lifecycle-runtime-2.5.1-21 C:\Users\Alex\.gradle\caches\transforms-3\ecb295b800ded09051f724a4ba193524\transformed\lifecycle-runtime-2.5.1\res
-com.optic.kotlinudemydelivery.app-lifecycle-viewmodel-2.5.1-22 C:\Users\Alex\.gradle\caches\transforms-3\f2489d9065f4dca5ca4b308de42fbf04\transformed\lifecycle-viewmodel-2.5.1\res
-com.optic.kotlinudemydelivery.app-annotation-experimental-1.1.0-23 C:\Users\Alex\.gradle\caches\transforms-3\fb44608a9e1d20332c6690b5dda0b67e\transformed\annotation-experimental-1.1.0\res
-com.optic.kotlinudemydelivery.app-pngs-24 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\pngs\debug
-com.optic.kotlinudemydelivery.app-resValues-25 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\resValues\debug
-com.optic.kotlinudemydelivery.app-rs-26 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\rs\debug
-com.optic.kotlinudemydelivery.app-packageDebugResources-27 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.optic.kotlinudemydelivery.app-packageDebugResources-28 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.optic.kotlinudemydelivery.app-merged_res-29 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\merged_res\debug
-com.optic.kotlinudemydelivery.app-debug-30 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\debug\res
-com.optic.kotlinudemydelivery.app-main-31 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res
+com.optic.kotlinudemydelivery.app-glide-4.14.2-22 C:\Users\Alex\.gradle\caches\transforms-3\f1d62d86edda321dff7e0370c01eedfa\transformed\glide-4.14.2\res
+com.optic.kotlinudemydelivery.app-lifecycle-viewmodel-2.5.1-23 C:\Users\Alex\.gradle\caches\transforms-3\f2489d9065f4dca5ca4b308de42fbf04\transformed\lifecycle-viewmodel-2.5.1\res
+com.optic.kotlinudemydelivery.app-annotation-experimental-1.1.0-24 C:\Users\Alex\.gradle\caches\transforms-3\fb44608a9e1d20332c6690b5dda0b67e\transformed\annotation-experimental-1.1.0\res
+com.optic.kotlinudemydelivery.app-pngs-25 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\pngs\debug
+com.optic.kotlinudemydelivery.app-resValues-26 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\resValues\debug
+com.optic.kotlinudemydelivery.app-rs-27 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\generated\res\rs\debug
+com.optic.kotlinudemydelivery.app-packageDebugResources-28 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.optic.kotlinudemydelivery.app-packageDebugResources-29 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.optic.kotlinudemydelivery.app-merged_res-30 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\build\intermediates\merged_res\debug
+com.optic.kotlinudemydelivery.app-debug-31 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\debug\res
+com.optic.kotlinudemydelivery.app-main-32 C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res

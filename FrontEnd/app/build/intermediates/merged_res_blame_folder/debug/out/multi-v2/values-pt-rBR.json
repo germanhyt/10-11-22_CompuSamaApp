@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-27:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\f3889f18d4f26e70cef4e17d11226053\\transformed\\core-1.9.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7752",
+                        "endColumns": "100",
+                        "endOffsets": "7848"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
                     "from": {
@@ -20,23 +37,6 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,83,100,119,80,63,91,78,59,89,70,62,74,63,53,126,57,61,53,78,140,86,81,138,82,83,86,55,50,65,73,79,86,72,76,68,73,87,76,92,95,73,79,96,51,65,86,87,61,63,62,111,108,106,109,59,54,76",
                         "endOffsets": "318,3140,3241,3361,3442,3506,3598,3677,3737,3827,3898,3961,4036,4100,4154,4281,4339,4401,4455,4534,4675,4762,4844,4983,5066,5150,5237,5293,5344,5410,5484,5564,5651,5724,5801,5870,5944,6032,6109,6202,6298,6372,6452,6549,6601,6667,6754,6842,6904,6968,7031,7143,7252,7359,7469,7529,7584,7661"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7752",
-                        "endColumns": "100",
-                        "endOffsets": "7848"
                     }
                 },
                 {

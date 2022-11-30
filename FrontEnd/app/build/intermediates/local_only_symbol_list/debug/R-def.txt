@@ -18,6 +18,7 @@ drawable ic_arrow_right
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable rounded_button
+drawable user_icon
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
@@ -32,9 +33,14 @@ id edittext_password
 id edittext_phone
 id imageview_go_to_login
 id imageview_go_to_register
+id imageview_rol
+id recyclerview_roles
+id textview_rol
 layout activity_client_home
 layout activity_main
 layout activity_register
+layout activity_select_roles
+layout cardview_roles
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

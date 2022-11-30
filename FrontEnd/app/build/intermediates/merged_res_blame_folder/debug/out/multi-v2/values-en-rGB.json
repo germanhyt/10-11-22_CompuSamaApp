@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-27:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-en-rGB/values-en-rGB.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\f3889f18d4f26e70cef4e17d11226053\\transformed\\core-1.9.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "91",
+                        "startColumns": "4",
+                        "startOffsets": "7465",
+                        "endColumns": "100",
+                        "endOffsets": "7561"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
@@ -20,23 +37,6 @@
                         "endLines": "5,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89",
                         "endColumns": "12,76,97,114,78,64,89,66,58,89,63,62,68,63,53,111,57,61,53,71,121,86,80,139,76,80,90,53,50,65,69,76,86,70,76,68,68,90,71,88,88,73,71,85,49,65,79,83,61,63,62,99,96,91,98,57,54,77",
                         "endOffsets": "317,3051,3149,3264,3343,3408,3498,3565,3624,3714,3778,3841,3910,3974,4028,4140,4198,4260,4314,4386,4508,4595,4676,4816,4893,4974,5065,5119,5170,5236,5306,5383,5470,5541,5618,5687,5756,5847,5919,6008,6097,6171,6243,6329,6379,6445,6525,6609,6671,6735,6798,6898,6995,7087,7186,7244,7299,7377"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "91",
-                        "startColumns": "4",
-                        "startOffsets": "7465",
-                        "endColumns": "100",
-                        "endOffsets": "7561"
                     }
                 },
                 {

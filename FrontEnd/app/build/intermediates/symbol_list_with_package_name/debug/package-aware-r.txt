@@ -2648,6 +2648,7 @@ drawable rounded_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user_icon
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
@@ -2859,6 +2860,7 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2880,6 +2882,7 @@ id ignoreRequest
 id image
 id imageview_go_to_login
 id imageview_go_to_register
+id imageview_rol
 id immediateStop
 id included
 id indeterminate
@@ -3001,6 +3004,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerview_roles
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3099,6 +3103,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_rol
 id time
 id title
 id titleDividerNoCustom
@@ -3263,6 +3268,8 @@ layout abc_tooltip
 layout activity_client_home
 layout activity_main
 layout activity_register
+layout activity_select_roles
+layout cardview_roles
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
