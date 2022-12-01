@@ -1,9 +1,10 @@
 package com.optic.kotlinudemydelivery.activities
 
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Email
 import android.text.TextUtils
 import android.util.Log
 import android.widget.Button
@@ -13,6 +14,8 @@ import android.widget.Toast
 import com.google.gson.Gson
 import com.optic.kotlinudemydelivery.R
 import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
+import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
+import com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity
 import com.optic.kotlinudemydelivery.models.ResponseHttp
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.providers.UsersProvider
@@ -20,7 +23,6 @@ import com.optic.kotlinudemydelivery.utils.SharedPref
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import kotlin.math.log
 
 class MainActivity : AppCompatActivity() {
 
@@ -84,11 +86,25 @@ class MainActivity : AppCompatActivity() {
 
     private  fun goToClientHome(){
         val i = Intent(this, ClientHomeActivity::class.java)
+        i.flags = FLAG_ACTIVITY_NEW_TASK or FLAG_ACTIVITY_CLEAR_TASK // Eliminar el historial de pantalla
+        startActivity(i)
+    }
+
+    private  fun goToRestaurantHome(){
+        val i = Intent(this, RestaurantHomeActivity::class.java)
+        i.flags = FLAG_ACTIVITY_NEW_TASK or FLAG_ACTIVITY_CLEAR_TASK // Eliminar el historial de pantalla
+        startActivity(i)
+    }
+
+    private  fun goToDeliveryHome(){
+        val i = Intent(this, DeliveryHomeActivity::class.java)
+        i.flags = FLAG_ACTIVITY_NEW_TASK or FLAG_ACTIVITY_CLEAR_TASK // Eliminar el historial de pantalla
         startActivity(i)
     }
 
     private fun goToSelectRol(){
         val i = Intent(this, SelectRolesActivity::class.java)
+        i.flags = FLAG_ACTIVITY_NEW_TASK or FLAG_ACTIVITY_CLEAR_TASK // Eliminar el historial de pantalla
         startActivity(i)
 
     }
@@ -119,7 +135,27 @@ class MainActivity : AppCompatActivity() {
         if (!sharedPref.getData("user").isNullOrBlank()){
             // SI EL USUARIO EXISTE EN SESION
             val user = gson.fromJson(sharedPref.getData("user"), User::class.java)
-            goToClientHome()
+
+            if (!sharedPref.getData("rol").isNullOrBlank()){
+                    // SI EL USUARIO SELECCIONO EL ROL
+                val rol = sharedPref.getData("rol")?.replace("\"", "")
+                Log.d("MainActivity","ROL $rol")
+
+                if (rol == "RESTAURANTE"){
+                    goToRestaurantHome()
+                }
+                else if (rol == "CLIENTE"){
+                    goToClientHome()
+                }
+                else if (rol == "REPARTIDOR"){
+                    goToDeliveryHome()
+                }
+            }
+            else{
+                Log.d("MainActivity","ROL NO EXISTE")
+                goToClientHome()
+            }
+
         }
     }
 

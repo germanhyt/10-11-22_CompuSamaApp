@@ -37,8 +37,10 @@ id imageview_rol
 id recyclerview_roles
 id textview_rol
 layout activity_client_home
+layout activity_delivery_home
 layout activity_main
 layout activity_register
+layout activity_restaurant_home
 layout activity_select_roles
 layout cardview_roles
 mipmap ic_launcher

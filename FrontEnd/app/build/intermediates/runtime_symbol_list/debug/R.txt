@@ -3265,8 +3265,10 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_client_home 0x7f0c001c
+int layout activity_delivery_home 0x7f0c006b
 int layout activity_main 0x7f0c001d
 int layout activity_register 0x7f0c001e
+int layout activity_restaurant_home 0x7f0c006c
 int layout activity_select_roles 0x7f0c001f
 int layout cardview_roles 0x7f0c0020
 int layout custom_dialog 0x7f0c0021

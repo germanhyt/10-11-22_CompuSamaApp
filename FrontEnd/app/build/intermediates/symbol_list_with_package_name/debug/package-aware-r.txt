@@ -3266,8 +3266,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_client_home
+layout activity_delivery_home
 layout activity_main
 layout activity_register
+layout activity_restaurant_home
 layout activity_select_roles
 layout cardview_roles
 layout custom_dialog

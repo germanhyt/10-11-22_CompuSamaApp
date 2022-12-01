@@ -1,7 +1,8 @@
-#Wed Nov 30 18:49:48 COT 2022
+#Wed Nov 30 20:34:14 COT 2022
 path.4=12/classes.dex
 path.3=11/classes.dex
 path.2=10/classes.dex
+renamed.9=classes10.dex
 path.1=0/classes.dex
 renamed.8=classes9.dex
 path.8=15/classes.dex
@@ -18,6 +19,8 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+base.9=C\:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+path.9=9/classes.dex
 renamed.7=classes8.dex
 base.8=C\:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 renamed.6=classes7.dex
