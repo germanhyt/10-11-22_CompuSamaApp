@@ -13,15 +13,23 @@
   "author": "Josue",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/storage": "^5.14.8",
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.17.1",
     "express-session": "^1.17.3",
+    "firebase-admin": "^9.12.0",
+    "https": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose-morgan": "^1.0.17",
-    "passport": "^0.6.0",
+    "mercadopago": "^1.5.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "pg-promise": "^10.15.3"
+    "passport-local": "^1.0.0",
+    "pg-promise": "^10.10.2",
+    "socket.io": "^2.4.1",
+    "util": "^0.12.4"
   }
 }

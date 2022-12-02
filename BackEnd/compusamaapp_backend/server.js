@@ -4,7 +4,19 @@ const http = require('http');
 const server = http.createServer(app);
 const logger = require('morgan');
 const cors = require('cors');
-const passport = require('passport')
+const passport = require('passport');
+const multer = require('multer');
+const serviceAccount = require('./serviceAccountKey.json');
+const admin = require('firebase-admin');
+
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount)
+});
+
+const upload = multer({
+    storage: multer.memoryStorage()
+});
+
 
 var expressSession = require("express-session");
 
@@ -19,7 +31,6 @@ app.use(expressSession({
 */
 
 const users = require('./routes/usersRoutes');
-
 
 const port = process.env.PORT || 3000;
 
@@ -39,11 +50,14 @@ app.disable('x-powered-by');
 
 app.set('port', port);
 
+
+
+
 /*
 * LLAMANDO A LA RUTAS
 */
 
-users(app);
+users(app, upload);
 
 server.listen(3000,'192.168.18.4' || 'localhost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')

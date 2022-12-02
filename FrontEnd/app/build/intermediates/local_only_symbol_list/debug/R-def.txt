@@ -17,14 +17,18 @@ drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_person
 drawable rounded_button
 drawable user_icon
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
+id btn_confirm
 id btn_login
 id btn_logout
+id btn_next
 id btn_register
+id circleimage_user
 id edittext_confirm_password
 id edittext_email
 id edittext_lastname
@@ -41,6 +45,7 @@ layout activity_delivery_home
 layout activity_main
 layout activity_register
 layout activity_restaurant_home
+layout activity_save_image
 layout activity_select_roles
 layout cardview_roles
 mipmap ic_launcher

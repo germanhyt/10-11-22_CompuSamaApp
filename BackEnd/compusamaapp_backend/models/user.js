@@ -110,5 +110,31 @@ User.create = async (user) => {
     ]);
 }
 
+User.update = (user) => {
+
+    const sql = `
+    UPDATE
+        users
+    SET
+        name = $2,
+        lastname = $3,
+        phone = $4,
+        image = $5,
+        updated_at = $6
+    WHERE
+        id = $1
+    `;
+
+    return db.none(sql, [
+        user.id,
+        user.name,
+        user.lastname,
+        user.phone,
+        user.image,
+        new Date()
+    ]);
+
+}
+
 
 module.exports = User;

@@ -1,5 +1,6 @@
 package com.optic.kotlinudemydelivery.models
 
+import com.google.gson.Gson
 import com.google.gson.annotations.SerializedName
 
 class User(
@@ -17,4 +18,9 @@ class User(
     override fun toString(): String {
         return "User(id=$id, name='$name', lastname='$lastname', email='$email', phone='$phone', password='$password', image=$image, sessionToken=$sessionToken, isAvailable=$isAvailable, roles=$roles)"
     }
+
+    fun toJson(): String {
+        return Gson().toJson(this)
+    }
+
 }

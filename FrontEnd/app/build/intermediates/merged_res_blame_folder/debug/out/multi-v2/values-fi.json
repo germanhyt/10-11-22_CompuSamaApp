@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-28:/values-fi/values-fi.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-31:/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-fi\\values-fi.xml",
@@ -18,6 +18,23 @@
                         "startOffsets": "318,426,526,635,721,826,944,1030,1109,1200,1293,1388,1482,1576,1669,1765,1864,1955,2049,2129,2236,2337,2434,2540,2640,2738,2888,7479",
                         "endColumns": "107,99,108,85,104,117,85,78,90,92,94,93,93,92,95,98,90,93,79,106,100,96,105,99,97,149,99,80",
                         "endOffsets": "421,521,630,716,821,939,1025,1104,1195,1288,1383,1477,1571,1664,1760,1859,1950,2044,2124,2231,2332,2429,2535,2635,2733,2883,2983,7555"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\669aaaed5c2b178353a525120c586dad\\transformed\\ucrop-2.2.6\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,178,243,293",
+                        "endColumns": "122,64,49,48",
+                        "endOffsets": "173,238,288,337"
+                    },
+                    "to": {
+                        "startLines": "92,93,94,95",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7661,7784,7849,7899",
+                        "endColumns": "122,64,49,48",
+                        "endOffsets": "7779,7844,7894,7943"
                     }
                 },
                 {
