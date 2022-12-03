@@ -4,7 +4,7 @@ import com.optic.kotlinudemydelivery.routes.UsersRoutes
 
 class ApiRoutes {
 
-    val API_URL = "http://192.168.18.4:3000/api/"
+    val API_URL = "http://192.168.18.2:3000/api/"
     val retrofit = RetrofitClient()
 
     fun getUsersRoutes(): UsersRoutes{

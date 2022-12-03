@@ -59,7 +59,7 @@ app.set('port', port);
 
 users(app, upload);
 
-server.listen(3000,'192.168.18.4' || 'localhost', function() {// la ip depende de la pc
+server.listen(3000,'192.168.18.2' || 'localhost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
 });
 
