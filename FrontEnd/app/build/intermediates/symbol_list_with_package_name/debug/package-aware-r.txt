@@ -2638,6 +2638,7 @@ drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_category
 drawable ic_clock_black_24dp
+drawable ic_email_gray
 drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2652,9 +2653,12 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_orders
 drawable ic_person
 drawable ic_person_pin
+drawable ic_person_pin_gray
+drawable ic_phone_gray
 drawable ic_photo_black_48dp
 drawable ic_photo_camera_black_48dp
 drawable ic_pizza
+drawable ic_power
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2854,6 +2858,7 @@ id btn_login
 id btn_next
 id btn_register
 id btn_select_rol
+id btn_upgrade_profile
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2991,6 +2996,7 @@ id image_view_state_rotate
 id image_view_state_scale
 id imageview_go_to_login
 id imageview_go_to_register
+id imageview_logout
 id imageview_rol
 id immediateStop
 id included
@@ -3232,6 +3238,9 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_email
+id textview_name
+id textview_phone
 id textview_rol
 id time
 id title

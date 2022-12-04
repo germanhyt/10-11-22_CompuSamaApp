@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\layout_fragment_restaurant_product.xml.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-33:/drawable_ic_power.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-35:/drawable/ic_power.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -102,6 +106,10 @@
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-33:/layout_fragment_client_profile.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-35:/layout/fragment_client_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable_ic_phone_gray.xml.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\drawable\\ic_phone_gray.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\layout_activity_select_roles.xml.flat",
@@ -172,8 +180,16 @@
         "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable_ic_email_gray.xml.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\drawable\\ic_email_gray.xml"
+    },
+    {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\layout_activity_delivery_home.xml.flat",
         "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\layout\\activity_delivery_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable_ic_person_pin_gray.xml.flat",
+        "source": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-main-35:\\drawable\\ic_person_pin_gray.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\.gradle\\daemon\\7.4\\com.optic.kotlinudemydelivery.app-merged_res-33:\\drawable_ic_pizza.xml.flat",

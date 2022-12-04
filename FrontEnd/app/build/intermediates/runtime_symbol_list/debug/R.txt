@@ -2637,6 +2637,7 @@ int drawable ic_arrow_left 0x7f070082
 int drawable ic_arrow_right 0x7f070083
 int drawable ic_category 0x7f070084
 int drawable ic_clock_black_24dp 0x7f070085
+int drawable ic_email_gray 0x7f0700f3
 int drawable ic_home 0x7f070086
 int drawable ic_keyboard_black_24dp 0x7f070087
 int drawable ic_launcher_background 0x7f070088
@@ -2651,9 +2652,12 @@ int drawable ic_mtrl_chip_close_circle 0x7f070090
 int drawable ic_orders 0x7f070091
 int drawable ic_person 0x7f070092
 int drawable ic_person_pin 0x7f070093
+int drawable ic_person_pin_gray 0x7f0700f4
+int drawable ic_phone_gray 0x7f0700f5
 int drawable ic_photo_black_48dp 0x7f070094
 int drawable ic_photo_camera_black_48dp 0x7f070095
 int drawable ic_pizza 0x7f070096
+int drawable ic_power 0x7f0700f6
 int drawable m3_appbar_background 0x7f070097
 int drawable m3_popupmenu_background_overlay 0x7f070098
 int drawable m3_radiobutton_ripple 0x7f070099
@@ -2853,6 +2857,7 @@ int id btn_login 0x7f090064
 int id btn_next 0x7f090065
 int id btn_register 0x7f090066
 int id btn_select_rol 0x7f090214
+int id btn_upgrade_profile 0x7f090215
 int id buttonPanel 0x7f090067
 int id cache_measures 0x7f090068
 int id callMeasure 0x7f090069
@@ -2990,6 +2995,7 @@ int id image_view_state_rotate 0x7f0900ec
 int id image_view_state_scale 0x7f0900ed
 int id imageview_go_to_login 0x7f0900ee
 int id imageview_go_to_register 0x7f0900ef
+int id imageview_logout 0x7f090219
 int id imageview_rol 0x7f0900f0
 int id immediateStop 0x7f0900f1
 int id included 0x7f0900f2
@@ -3231,6 +3237,9 @@ int id textinput_helper_text 0x7f0901de
 int id textinput_placeholder 0x7f0901df
 int id textinput_prefix_text 0x7f0901e0
 int id textinput_suffix_text 0x7f0901e1
+int id textview_email 0x7f090216
+int id textview_name 0x7f090217
+int id textview_phone 0x7f090218
 int id textview_rol 0x7f0901e2
 int id time 0x7f0901e3
 int id title 0x7f0901e4

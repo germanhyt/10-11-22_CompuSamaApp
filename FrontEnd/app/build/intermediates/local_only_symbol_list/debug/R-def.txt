@@ -16,13 +16,17 @@ drawable edittext_custom
 drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_category
+drawable ic_email_gray
 drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_orders
 drawable ic_person
 drawable ic_person_pin
+drawable ic_person_pin_gray
+drawable ic_phone_gray
 drawable ic_pizza
+drawable ic_power
 drawable rounded_button
 drawable user_icon
 font catalish_huntera
@@ -34,6 +38,7 @@ id btn_login
 id btn_next
 id btn_register
 id btn_select_rol
+id btn_upgrade_profile
 id circleimage_user
 id container
 id edittext_confirm_password
@@ -44,6 +49,7 @@ id edittext_password
 id edittext_phone
 id imageview_go_to_login
 id imageview_go_to_register
+id imageview_logout
 id imageview_rol
 id item_category
 id item_home
@@ -51,6 +57,9 @@ id item_orders
 id item_product
 id item_profile
 id recyclerview_roles
+id textview_email
+id textview_name
+id textview_phone
 id textview_rol
 layout activity_client_home
 layout activity_delivery_home
