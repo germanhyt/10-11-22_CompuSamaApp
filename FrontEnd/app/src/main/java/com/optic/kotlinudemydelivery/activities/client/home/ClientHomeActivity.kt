@@ -32,6 +32,8 @@ class ClientHomeActivity : AppCompatActivity() {
         //buttonLogout = findViewById(R.id.btn_logout)
         //buttonLogout?.setOnClickListener{ logout() }
 
+        openFragment(ClientCategoriesFragment())
+
         bottomNavigation = findViewById(R.id.bottom_navigation)
         bottomNavigation?.setOnItemSelectedListener {
             when(it.itemId) {

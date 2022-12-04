@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".fragments.client.ClientProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/btn_select_rol"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="FRAGMENT CLIENT PROFILE" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SELECCIONAR ROL" />
+
 
 </FrameLayout>

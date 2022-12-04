@@ -2852,6 +2852,7 @@ int id btn_confirm 0x7f090063
 int id btn_login 0x7f090064
 int id btn_next 0x7f090065
 int id btn_register 0x7f090066
+int id btn_select_rol 0x7f090214
 int id buttonPanel 0x7f090067
 int id cache_measures 0x7f090068
 int id callMeasure 0x7f090069
@@ -3431,6 +3432,10 @@ int layout dialog_choose_app 0x7f0c0034
 int layout fragment_client_categories 0x7f0c0035
 int layout fragment_client_orders 0x7f0c0036
 int layout fragment_client_profile 0x7f0c0037
+int layout fragment_delivery_orders 0x7f0c0079
+int layout fragment_restaurant_category 0x7f0c007a
+int layout fragment_restaurant_orders 0x7f0c007b
+int layout fragment_restaurant_product 0x7f0c007c
 int layout m3_alert_dialog 0x7f0c0038
 int layout m3_alert_dialog_actions 0x7f0c0039
 int layout m3_alert_dialog_title 0x7f0c003a

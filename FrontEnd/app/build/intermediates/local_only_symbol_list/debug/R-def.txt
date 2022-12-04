@@ -33,6 +33,7 @@ id btn_confirm
 id btn_login
 id btn_next
 id btn_register
+id btn_select_rol
 id circleimage_user
 id container
 id edittext_confirm_password
@@ -62,6 +63,10 @@ layout cardview_roles
 layout fragment_client_categories
 layout fragment_client_orders
 layout fragment_client_profile
+layout fragment_delivery_orders
+layout fragment_restaurant_category
+layout fragment_restaurant_orders
+layout fragment_restaurant_product
 menu bottom_navigation_menu_client
 menu bottom_navigation_menu_delivery
 menu bottom_navigation_menu_restaurant

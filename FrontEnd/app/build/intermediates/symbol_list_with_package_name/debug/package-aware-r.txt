@@ -2853,6 +2853,7 @@ id btn_confirm
 id btn_login
 id btn_next
 id btn_register
+id btn_select_rol
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3432,6 +3433,10 @@ layout dialog_choose_app
 layout fragment_client_categories
 layout fragment_client_orders
 layout fragment_client_profile
+layout fragment_delivery_orders
+layout fragment_restaurant_category
+layout fragment_restaurant_orders
+layout fragment_restaurant_product
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
