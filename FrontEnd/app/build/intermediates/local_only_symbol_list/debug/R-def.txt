@@ -38,6 +38,7 @@ id btn_login
 id btn_next
 id btn_register
 id btn_select_rol
+id btn_update
 id btn_upgrade_profile
 id circleimage_user
 id container
@@ -62,6 +63,7 @@ id textview_name
 id textview_phone
 id textview_rol
 layout activity_client_home
+layout activity_client_update
 layout activity_delivery_home
 layout activity_main
 layout activity_register

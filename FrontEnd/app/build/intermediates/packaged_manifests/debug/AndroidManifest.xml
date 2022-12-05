@@ -46,6 +46,10 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
+            android:exported="false" >
+        </activity>
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -56,28 +60,22 @@
         </activity>
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
             android:screenOrientation="unspecified"

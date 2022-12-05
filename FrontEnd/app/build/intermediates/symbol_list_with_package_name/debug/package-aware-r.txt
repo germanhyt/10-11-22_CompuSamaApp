@@ -2858,6 +2858,7 @@ id btn_login
 id btn_next
 id btn_register
 id btn_select_rol
+id btn_update
 id btn_upgrade_profile
 id buttonPanel
 id cache_measures
@@ -3415,6 +3416,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_client_home
+layout activity_client_update
 layout activity_delivery_home
 layout activity_main
 layout activity_register

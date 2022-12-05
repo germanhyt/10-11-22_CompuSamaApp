@@ -96,7 +96,7 @@ module.exports = {
                     roles: myUser.roles
                 }
 
-                console.log(`USUARIO ENVIADO ${data}`);
+                await User.updateSessionToken(myUser.id,`JWT ${token}` )
 
                 return res.status(201).json({
                     success: true,
@@ -160,7 +160,33 @@ module.exports = {
                 error: error
             });
         }
-    }
+    },
 
+    async updateWithoutImage(req, res, next) {
+        try{
+
+            console.log('Usuario', req.body.user);
+
+            const user = req.body; //CLIENTE DEBE ENVIARNOS UN OBJETO USER
+            console.log('Usuario Parseado', user);
+
+            await User.update(user); // GUARDANDO LA URL EN LA BASE DE DATOS
+
+            return res.status(201).json({
+                success: true,
+                message: 'Los datos del usuario se han actualizado correctamente',
+                data: user
+            });
+
+        }
+        catch(error){
+            console.log(`Error: ${error}`);
+            return res.status(501).json({
+                success: false,
+                message: 'Hubo un error al actualizar los datos del usuario',
+                error: error
+            });
+        }
+    }
 
 }
