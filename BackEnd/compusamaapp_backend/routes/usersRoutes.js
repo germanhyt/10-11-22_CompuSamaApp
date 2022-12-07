@@ -9,6 +9,7 @@ module.exports = (app, upload) => {
     //GUARDAR DATOSw
     app.post('/api/users/create',UsersController.register);
     app.post('/api/users/login',UsersController.login);
+    //app.post('/api/users/logout',UsersController.logout);
 
     //ACTUALIZAR DATOS
     // 401 NO AUTORIZADA
