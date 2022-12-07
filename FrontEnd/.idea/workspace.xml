@@ -13,11 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdfe37bc-e130-4df9-b888-3d9c5ca60596" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/activities/client/update/ClientUpdateActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_client_update.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/controllers/usersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/controllers/usersController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/routes/usersRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/routes/usersRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/adapters/CategoriesAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/models/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/providers/CategoriesProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/routes/CategoriesRoutes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/hamburguesa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/action_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/db/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
@@ -45,8 +51,6 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/optic/kotlinudemydelivery/activities/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/optic/kotlinudemydelivery/activities/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/optic/kotlinudemydelivery/activities/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/optic/kotlinudemydelivery/activities/RegisterActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
@@ -116,15 +120,18 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/optic/kotlinudemydelivery/activities/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/optic/kotlinudemydelivery/activities/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/optic/kotlinudemydelivery/activities/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/optic/kotlinudemydelivery/activities/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/activities/SaveImageActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/activities/SaveImageActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/activities/client/update/ClientUpdateActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/activities/client/update/ClientUpdateActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/api/ApiRoutes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/api/ApiRoutes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/api/RetrofitClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/api/RetrofitClient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/client/ClientProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/client/ClientProfileFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/models/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/providers/UsersProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/providers/UsersProvider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/routes/UsersRoutes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/routes/UsersRoutes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/client/ClientCategoriesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/client/ClientCategoriesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/restaurant/RestaurantCategoryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/restaurant/RestaurantCategoryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/restaurant/RestaurantProductFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/optic/kotlinudemydelivery/fragments/restaurant/RestaurantProductFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_client_update.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_client_update.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_client_categories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_client_categories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_restaurant_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_restaurant_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_restaurant_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_restaurant_product.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,9 +149,9 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Class" />
-        <option value="layoutResourceFile" />
-        <option value="Kotlin Class" />
         <option value="resourceFile" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -179,7 +186,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -195,8 +202,8 @@
       <recent name="com.optic.kotlinudemydelivery.activities.client.home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res\menu" />
       <recent name="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res\menu" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\res\font" />
@@ -210,6 +217,11 @@
     </key>
     <key name="android.template.-665333564">
       <recent name="com.optic.kotlinudemydelivery.activities.client.update" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.optic.kotlinudemydelivery.adapters" />
+      <recent name="com.optic.kotlinudemydelivery.providers" />
+      <recent name="com.optic.kotlinudemydelivery.routes" />
     </key>
     <key name="android.template.-573539918">
       <recent name="com.optic.kotlinudemydelivery.activities" />

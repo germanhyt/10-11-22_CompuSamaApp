@@ -36,7 +36,7 @@ CREATE TABLE user_has_roles(
 	FOREIGN KEY(id_rol) REFERENCES roles(id) ON UPDATE CASCADE ON DELETE CASCADE,
 	PRIMARY KEY(id_user,id_rol)
 
-) 
+)
 
 INSERT INTO roles(
 	name,
@@ -85,6 +85,16 @@ VALUES(
 	'2022-11-04'
 	'2022-11-04'
 
+);
+
+DROP TABLE IF EXISTS categories CASCADE;
+
+CREATE TABLE categories (
+	id BIGSERIAL PRIMARY KEY,
+	name VARCHAR(180) NOT NULL UNIQUE,
+	image varchar(255) NOT NULL,
+	created_at TIMESTAMP(0) NOT NULL,
+	updated_at TIMESTAMP(0) NOT NULL
 );
 
 

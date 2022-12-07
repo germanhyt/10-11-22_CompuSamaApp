@@ -31,6 +31,7 @@ app.use(expressSession({
 */
 
 const users = require('./routes/usersRoutes');
+const categories = require('./routes/categoriesRoutes');
 
 const port = process.env.PORT || 3000;
 
@@ -50,14 +51,12 @@ app.disable('x-powered-by');
 
 app.set('port', port);
 
-
-
-
 /*
 * LLAMANDO A LA RUTAS
 */
 
 users(app, upload);
+categories(app, upload);
 
 server.listen(3000,'192.168.18.2' || 'localhost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')

@@ -35,9 +35,7 @@
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -47,8 +45,26 @@
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="true"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.MainActivity"
             android:exported="true" >
@@ -58,24 +74,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
-            android:exported="true" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
-            android:exported="true" />
         <activity
             android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
             android:screenOrientation="unspecified"

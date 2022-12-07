@@ -2633,12 +2633,14 @@ int drawable design_ic_visibility_off 0x7f07007e
 int drawable design_password_eye 0x7f07007f
 int drawable design_snackbar_background 0x7f070080
 int drawable edittext_custom 0x7f070081
+int drawable hamburguesa 0x7f0700f8
 int drawable ic_arrow_left 0x7f070082
 int drawable ic_arrow_right 0x7f070083
 int drawable ic_category 0x7f070084
 int drawable ic_clock_black_24dp 0x7f070085
 int drawable ic_email_gray 0x7f070086
 int drawable ic_home 0x7f070087
+int drawable ic_image 0x7f0700f7
 int drawable ic_keyboard_black_24dp 0x7f070088
 int drawable ic_launcher_background 0x7f070089
 int drawable ic_launcher_foreground 0x7f07008a
@@ -2853,6 +2855,7 @@ int id bounceBoth 0x7f090060
 int id bounceEnd 0x7f090061
 int id bounceStart 0x7f090062
 int id btn_confirm 0x7f090063
+int id btn_create 0x7f09021a
 int id btn_login 0x7f090064
 int id btn_next 0x7f090065
 int id btn_register 0x7f090066
@@ -2935,12 +2938,15 @@ int id easeInOut 0x7f0900b2
 int id easeOut 0x7f0900b3
 int id east 0x7f0900b4
 int id edit_query 0x7f0900b5
+int id edittext_category 0x7f09021b
 int id edittext_confirm_password 0x7f0900b6
+int id edittext_description 0x7f09021f
 int id edittext_email 0x7f0900b7
 int id edittext_lastname 0x7f0900b8
 int id edittext_name 0x7f0900b9
 int id edittext_password 0x7f0900ba
 int id edittext_phone 0x7f0900bb
+int id edittext_price 0x7f090220
 int id elastic 0x7f0900bc
 int id embed 0x7f0900bd
 int id end 0x7f0900be
@@ -2994,8 +3000,12 @@ int id image_view_logo 0x7f0900ed
 int id image_view_state_aspect_ratio 0x7f0900ee
 int id image_view_state_rotate 0x7f0900ef
 int id image_view_state_scale 0x7f0900f0
+int id imageview_category 0x7f09021c
 int id imageview_go_to_login 0x7f0900f1
 int id imageview_go_to_register 0x7f0900f2
+int id imageview_image1 0x7f090221
+int id imageview_image2 0x7f090222
+int id imageview_image3 0x7f090223
 int id imageview_logout 0x7f0900f3
 int id imageview_rol 0x7f0900f4
 int id immediateStop 0x7f0900f5
@@ -3131,6 +3141,7 @@ int id progress_horizontal 0x7f090176
 int id radio 0x7f090177
 int id ratio 0x7f090178
 int id rectangles 0x7f090179
+int id recyclerview_categories 0x7f09021d
 int id recyclerview_roles 0x7f09017a
 int id reverseSawtooth 0x7f09017b
 int id right 0x7f09017c
@@ -3181,6 +3192,7 @@ int id snapMargins 0x7f0901a8
 int id south 0x7f0901a9
 int id spacer 0x7f0901aa
 int id special_effects_controller_view_tag 0x7f0901ab
+int id spinner_categories 0x7f090224
 int id spline 0x7f0901ac
 int id split_action_bar 0x7f0901ad
 int id spread 0x7f0901ae
@@ -3238,6 +3250,7 @@ int id textinput_helper_text 0x7f0901e1
 int id textinput_placeholder 0x7f0901e2
 int id textinput_prefix_text 0x7f0901e3
 int id textinput_suffix_text 0x7f0901e4
+int id textview_category 0x7f09021e
 int id textview_email 0x7f0901e5
 int id textview_name 0x7f0901e6
 int id textview_phone 0x7f0901e7
@@ -3414,6 +3427,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout action_bar 0x7f0c007e
 int layout activity_client_home 0x7f0c001c
 int layout activity_client_update 0x7f0c001d
 int layout activity_delivery_home 0x7f0c001e
@@ -3422,6 +3436,7 @@ int layout activity_register 0x7f0c0020
 int layout activity_restaurant_home 0x7f0c0021
 int layout activity_save_image 0x7f0c0022
 int layout activity_select_roles 0x7f0c0023
+int layout cardview_categories 0x7f0c007f
 int layout cardview_roles 0x7f0c0024
 int layout custom_dialog 0x7f0c0025
 int layout design_bottom_navigation_item 0x7f0c0026

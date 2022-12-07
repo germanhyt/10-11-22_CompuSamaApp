@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/power_settings_new/baseline_power_settings_new_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/image/baseline_image_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,9 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ea1212" />
-                            <entry key="outputName" value="ic_power" />
+                            <entry key="autoMirrored" value="true" />
+                            <entry key="color" value="cbcbcb" />
+                            <entry key="outputName" value="ic_image" />
                             <entry key="sourceFile" value="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd" />
                           </map>
                         </option>
