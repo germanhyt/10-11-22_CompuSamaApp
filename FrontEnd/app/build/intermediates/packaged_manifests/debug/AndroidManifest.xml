@@ -44,6 +44,20 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
             android:exported="true"
             android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
@@ -103,6 +117,10 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.optic.kotlinudemydelivery.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

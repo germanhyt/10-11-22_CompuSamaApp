@@ -2,6 +2,7 @@ package com.optic.kotlinudemydelivery.api
 
 import android.media.session.MediaSession.Token
 import com.optic.kotlinudemydelivery.routes.CategoriesRoutes
+import com.optic.kotlinudemydelivery.routes.ProductsRoutes
 import com.optic.kotlinudemydelivery.routes.UsersRoutes
 
 class ApiRoutes {
@@ -21,4 +22,7 @@ class ApiRoutes {
         return retrofit.getClientWithToken(API_URL, token).create(CategoriesRoutes::class.java)
     }
 
+    fun getProductsRoutes(token: String): ProductsRoutes {
+        return retrofit.getClientWithToken(API_URL, token).create(ProductsRoutes::class.java)
+    }
 }

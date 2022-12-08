@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-31:/values-es/values-es.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-34:/values-es/values-es.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-es\\values-es.xml",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\3e6bacc049bf9cec5c662cc5b6df46ef\\transformed\\imagepicker-2.1\\res\\values-es\\values-es.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\08d4083f488a32d7c06159227ee87c47\\transformed\\jetified-imagepicker-2.1\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

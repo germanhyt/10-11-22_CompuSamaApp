@@ -597,6 +597,17 @@ attr isLightTheme
 attr isMaterial3DynamicColorApplied
 attr isMaterial3Theme
 attr isMaterialTheme
+attr iss_auto_cycle
+attr iss_corner_radius
+attr iss_delay
+attr iss_error_image
+attr iss_indicator_align
+attr iss_period
+attr iss_placeholder
+attr iss_selected_dot
+attr iss_text_align
+attr iss_title_background
+attr iss_unselected_dot
 attr itemActiveIndicatorStyle
 attr itemBackground
 attr itemFillColor
@@ -1354,8 +1365,10 @@ color gray
 color gray_light
 color green
 color green_accent
+color grey_font
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_font
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -1844,6 +1857,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color orange
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -1870,6 +1884,8 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color text_shadow
+color text_shadow_white
 color tooltip_background_dark
 color tooltip_background_light
 color ucrop_color_active_aspect_ratio
@@ -2509,6 +2525,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2628,13 +2648,18 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable default_selected_dot
+drawable default_unselected_dot
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edittext_custom
+drawable error
+drawable gradient
 drawable hamburguesa
+drawable ic_add
 drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_category
@@ -2661,6 +2686,8 @@ drawable ic_photo_black_48dp
 drawable ic_photo_camera_black_48dp
 drawable ic_pizza
 drawable ic_power
+drawable ic_remove
+drawable loading
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2729,6 +2756,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable placeholder
 drawable rounded_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2804,6 +2832,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -2855,6 +2884,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_add_product
 id btn_confirm
 id btn_create
 id btn_login
@@ -2866,6 +2896,7 @@ id btn_upgrade_profile
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
 id center
@@ -2952,6 +2983,7 @@ id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2996,11 +3028,14 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image_view
 id image_view_crop
 id image_view_logo
 id image_view_state_aspect_ratio
 id image_view_state_rotate
 id image_view_state_scale
+id imageslider
+id imageview_add
 id imageview_category
 id imageview_go_to_login
 id imageview_go_to_register
@@ -3008,6 +3043,8 @@ id imageview_image1
 id imageview_image2
 id imageview_image3
 id imageview_logout
+id imageview_product
+id imageview_remove
 id imageview_rol
 id immediateStop
 id included
@@ -3035,6 +3072,7 @@ id legacy
 id line1
 id line3
 id linear
+id linear_layout
 id listMode
 id list_item
 id lytCameraPick
@@ -3062,6 +3100,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id menu_crop
 id menu_loader
 id message
@@ -3123,6 +3162,7 @@ id outline
 id outward
 id overshoot
 id packed
+id pager_dots
 id parallax
 id parent
 id parentPanel
@@ -3143,6 +3183,7 @@ id radio
 id ratio
 id rectangles
 id recyclerview_categories
+id recyclerview_products
 id recyclerview_roles
 id reverseSawtooth
 id right
@@ -3213,6 +3254,7 @@ id state_rotate
 id state_scale
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
@@ -3242,6 +3284,7 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_view
 id text_view_crop
 id text_view_rotate
 id text_view_scale
@@ -3252,9 +3295,12 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id textview_category
+id textview_counter
+id textview_description
 id textview_email
 id textview_name
 id textview_phone
+id textview_price
 id textview_rol
 id time
 id title
@@ -3285,6 +3331,7 @@ id useLogo
 id vertical_only
 id view_offset_helper
 id view_overlay
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -3430,6 +3477,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout action_bar
 layout activity_client_home
+layout activity_client_product_list
+layout activity_client_products_detail
 layout activity_client_update
 layout activity_delivery_home
 layout activity_main
@@ -3438,6 +3487,7 @@ layout activity_restaurant_home
 layout activity_save_image
 layout activity_select_roles
 layout cardview_categories
+layout cardview_product
 layout cardview_roles
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3463,6 +3513,7 @@ layout fragment_delivery_orders
 layout fragment_restaurant_category
 layout fragment_restaurant_orders
 layout fragment_restaurant_product
+layout image_slider
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3513,10 +3564,21 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pager_row
+layout progress_dialog_fragment_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3592,6 +3654,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string image_picker_provider_authority_suffix
 string item_view_role_description
+string left
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -4116,9 +4179,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4819,6 +4887,7 @@ styleable FragmentContainerView android_name android_tag
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
+styleable ImageSlider iss_auto_cycle iss_corner_radius iss_delay iss_error_image iss_indicator_align iss_period iss_placeholder iss_selected_dot iss_text_align iss_title_background iss_unselected_dot
 styleable Insets marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingTopSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transformPivotTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod wavePhase waveShape waveVariesBy

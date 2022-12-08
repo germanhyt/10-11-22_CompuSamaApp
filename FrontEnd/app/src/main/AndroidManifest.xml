@@ -19,15 +19,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".activities.client.products.detail.ClientProductsDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.client.products.list.ClientProductListActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activities.client.update.ClientUpdateActivity"
             android:exported="true"
-            android:parentActivityName=".activities.client.home.ClientHomeActivity"/>
-
+            android:parentActivityName=".activities.client.home.ClientHomeActivity" />
         <activity
             android:name=".activities.SaveImageActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".activities.delivery.home.DeliveryHomeActivity"
             android:exported="true" />

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-31:/values-fi/values-fi.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-34:/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-fi\\values-fi.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\669aaaed5c2b178353a525120c586dad\\transformed\\ucrop-2.2.6\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\ccd18369c220fe591d37e95b90089951\\transformed\\jetified-ucrop-2.2.6\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
