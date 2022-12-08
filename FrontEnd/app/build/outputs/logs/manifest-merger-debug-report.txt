@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\Alex\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Alex\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -14,7 +14,14 @@ MERGED from [com.github.yalantis:ucrop:2.2.6] C:\Users\Alex\.gradle\caches\trans
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\Alex\.gradle\caches\transforms-3\35247393b79a5fe3c4f500e2adf3d76f\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\Alex\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\d6fa06a0fd5ebf4b042b76428fd57504\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:maps-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\546397ae47dc8a27d8575d0b5851e2d4\transformed\jetified-maps-ktx-3.2.0\AndroidManifest.xml:18:1-25:12
+MERGED from [com.google.maps.android:maps-utils-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\40148a8ca27636bd7d38d14d19034db0\transformed\jetified-maps-utils-ktx-3.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\40b431c5aef9fe8d79bbd634c77ae9f1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Alex\.gradle\caches\transforms-3\6e850bd48c610e30758418f6fdc31a1f\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Alex\.gradle\caches\transforms-3\81af2cafc0df7206faf42f949163e957\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Alex\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\Alex\.gradle\caches\transforms-3\f3ee13db5cf5e80542e82c0f34f6d420\transformed\jetified-activity-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\385e466706e73bb3d73bbe6b4875519d\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -40,6 +47,7 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Al
 MERGED from [androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\4c666ee4e9502ea3205dee12a9a32221\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Alex\.gradle\caches\transforms-3\56c8e8a27068d68a4c0fd4ce9c0c4322\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\d61520087bb53d23a4e3afad5636d15d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -59,31 +67,35 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Alex\.gradle\caches
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\de2279805fd1769856255174ea323925\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\eb096476208bed94cd51cc904aa804e3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\87b6f924c6c766718f595823a69da52a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
+INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
 	package
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:4:5-44
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-84:12
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.CAMERA
@@ -94,14 +106,22 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:5-12:40
-	tools:ignore
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:9-37
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:9-65
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:5-16:40
+	tools:ignore
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:16:9-37
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-65
 application
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:5-82:19
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:5-94:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Alex\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -110,12 +130,24 @@ MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches
 MERGED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:21:5-40:19
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\Alex\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\Alex\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Alex\.gradle\caches\transforms-3\6e850bd48c610e30758418f6fdc31a1f\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Alex\.gradle\caches\transforms-3\6e850bd48c610e30758418f6fdc31a1f\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Alex\.gradle\caches\transforms-3\81af2cafc0df7206faf42f949163e957\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Alex\.gradle\caches\transforms-3\81af2cafc0df7206faf42f949163e957\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:11:5-15:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
@@ -129,121 +161,133 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Al
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-41
 	android:roundIcon
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-57
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:9-57
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-44
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:9-44
+activity#com.optic.kotlinudemydelivery.activities.client.address.map.ClientAddressMapActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:exported
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:13-83
+meta-data#android.app.lib_name
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-31:36
+	android:value
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:31:17-33
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-52
 activity#com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-26:20
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:9-36:102
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:13-99
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:13-37
-	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:13-89
-activity#com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:9-32:20
-	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:13-99
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-85
-activity#com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:9-36:87
-	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:36:13-84
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:36:13-99
 	android:exported
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-85
-activity#com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:37:9-43:20
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-89
+activity#com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:37:9-40:102
+	android:parentActivityName
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-99
 	android:exported
 		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:38:13-91
-meta-data#android.app.lib_name
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-42:36
-	android:value
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:17-33
-	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:17-52
-activity#com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:9-50:20
-	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:13-86
-activity#com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:51:9-54:87
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:38:13-85
+activity#com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:9-44:87
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:13-84
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:13-84
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:13-74
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:13-85
+activity#com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:exported
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-91
+activity#com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:9-58:20
+	android:exported
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-86
+activity#com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:9-62:87
+	android:parentActivityName
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-84
+	android:exported
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-74
 activity#com.optic.kotlinudemydelivery.activities.SaveImageActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:55:9-57:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:9-65:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:57:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:56:13-57
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:13-57
 activity#com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:58:9-60:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:9-68:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:13-74
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:13-74
 activity#com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:9-63:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:9-71:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-78
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:13-78
 activity#com.optic.kotlinudemydelivery.activities.SelectRolesActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:9-66:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:9-74:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:13-59
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:13-59
 activity#com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:9-69:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:9-77:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-70
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-70
 activity#com.optic.kotlinudemydelivery.activities.RegisterActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:9-72:39
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:78:9-80:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:80:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-56
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:13-56
 activity#com.optic.kotlinudemydelivery.activities.MainActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:9-81:20
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:81:9-89:20
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:13-36
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:83:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-52
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:82:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-80:29
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:84:13-88:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:17-69
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:17-69
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:25-66
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:17-77
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:17-77
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:27-74
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:91:9-93:71
+	android:value
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:93:13-68
+	android:name
+		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:92:13-58
 uses-sdk
 INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
@@ -268,8 +312,22 @@ MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\Alex\.gradle\cache
 MERGED from [com.github.bumptech.glide:glide:4.14.2] C:\Users\Alex\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\d6fa06a0fd5ebf4b042b76428fd57504\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\d6fa06a0fd5ebf4b042b76428fd57504\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:maps-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\546397ae47dc8a27d8575d0b5851e2d4\transformed\jetified-maps-ktx-3.2.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.maps.android:maps-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\546397ae47dc8a27d8575d0b5851e2d4\transformed\jetified-maps-ktx-3.2.0\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.maps.android:maps-utils-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\40148a8ca27636bd7d38d14d19034db0\transformed\jetified-maps-utils-ktx-3.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:maps-utils-ktx:3.2.0] C:\Users\Alex\.gradle\caches\transforms-3\40148a8ca27636bd7d38d14d19034db0\transformed\jetified-maps-utils-ktx-3.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\40b431c5aef9fe8d79bbd634c77ae9f1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\40b431c5aef9fe8d79bbd634c77ae9f1\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Alex\.gradle\caches\transforms-3\6e850bd48c610e30758418f6fdc31a1f\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Alex\.gradle\caches\transforms-3\6e850bd48c610e30758418f6fdc31a1f\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Alex\.gradle\caches\transforms-3\81af2cafc0df7206faf42f949163e957\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Alex\.gradle\caches\transforms-3\81af2cafc0df7206faf42f949163e957\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Alex\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Alex\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\Alex\.gradle\caches\transforms-3\f3ee13db5cf5e80542e82c0f34f6d420\transformed\jetified-activity-1.5.1\AndroidManifest.xml:20:5-22:41
@@ -320,6 +378,8 @@ MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Alex\.gradle\caches\transfor
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\4c666ee4e9502ea3205dee12a9a32221\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Alex\.gradle\caches\transforms-3\56c8e8a27068d68a4c0fd4ce9c0c4322\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
@@ -370,6 +430,8 @@ INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main
 		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
 ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:12:9-14:18
 action#android.media.action.IMAGE_CAPTURE
@@ -414,6 +476,38 @@ ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
 	android:name
 		ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:12:9-14:69
+MERGED from [com.google.maps.android:android-maps-utils:2.2.3] C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\AndroidManifest.xml:12:9-14:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20

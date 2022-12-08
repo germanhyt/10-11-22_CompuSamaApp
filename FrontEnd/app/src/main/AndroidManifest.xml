@@ -7,6 +7,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -20,16 +24,20 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.client.address.map.ClientAddressMapActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activities.client.address.create.ClientAddressCreateActivity"
             android:exported="false"
-            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity">
-        </activity>
+            android:parentActivityName=".activities.client.address.list.ClientAddressListActivity" />
         <activity
             android:name=".activities.client.address.list.ClientAddressListActivity"
             android:exported="false"
-            android:parentActivityName=".activities.client.shopping_bag.ClientShoppingBagActivity">
-
-        </activity>
+            android:parentActivityName=".activities.client.shopping_bag.ClientShoppingBagActivity" />
         <activity
             android:name=".activities.client.shopping_bag.ClientShoppingBagActivity"
             android:exported="false"
@@ -79,6 +87,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCEvbX7i7-JG1tHySNzfx1Uu6l0RNUNtnw" />
     </application>
 
 </manifest>

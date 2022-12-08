@@ -22,236 +22,295 @@
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 14-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:5-80
 14-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:22-77
-15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:5-12:40
-15-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:9-65
-16
-17    <queries>
-17-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:5-79
+15-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:5-81
+16-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:22-78
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:5-16:40
+17-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-65
 18
-19        <!-- Query Camera Packages -->
-20        <intent>
-20-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:12:9-14:18
-21            <action android:name="android.media.action.IMAGE_CAPTURE" />
-21-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:13-73
-21-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:21-70
-22        </intent>
-23        <!-- Query Open Document -->
-24        <intent>
-24-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:16:9-18:18
-25            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
-25-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:13-79
-25-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:21-76
-26        </intent>
-27    </queries>
-28
-29    <permission
-29-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-30        android:name="com.optic.kotlinudemydelivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19    <queries>
+19-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+20
+21        <!-- Query Camera Packages -->
+22        <intent>
+22-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+23            <action android:name="android.media.action.IMAGE_CAPTURE" />
+23-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:13-73
+23-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:13:21-70
+24        </intent>
+25        <!-- Query Open Document -->
+26        <intent>
+26-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+27            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+27-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:13-79
+27-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:17:21-76
+28        </intent>
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+31    </queries>
 32
-33    <uses-permission android:name="com.optic.kotlinudemydelivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-34
-35    <application
-35-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:5-82:19
-36        android:allowBackup="true"
-36-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-35
-37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-38        android:debuggable="true"
-39        android:icon="@mipmap/ic_launcher"
-39-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:16:9-43
-40        android:label="@string/app_name"
-40-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:17:9-41
-41        android:roundIcon="@mipmap/ic_launcher_round"
-41-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:9-54
-42        android:supportsRtl="true"
-42-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-35
-43        android:testOnly="true"
-44        android:theme="@style/Theme.KotlinUdemyDelivery"
-44-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-57
-45        android:usesCleartextTraffic="true" >
-45-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-44
-46        <activity
-46-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-26:20
-47            android:name="com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity"
-47-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:13-89
-48            android:exported="false"
-48-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:13-37
-49            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" >
-49-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:13-99
-50        </activity>
-51        <activity
-51-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:9-32:20
-52            android:name="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity"
-52-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-85
-53            android:exported="false"
-53-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-37
-54            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" >
-54-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:13-99
-55        </activity>
-56        <activity
-56-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:9-36:87
-57            android:name="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity"
-57-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-85
-58            android:exported="false"
-58-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:35:13-37
-59            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
-59-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:36:13-84
-60        <activity
-60-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:37:9-43:20
-61            android:name="com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity"
-61-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:38:13-91
-62            android:exported="false" >
-62-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:39:13-37
-63            <meta-data
-63-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-42:36
-64                android:name="android.app.lib_name"
-64-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:17-52
-65                android:value="" />
-65-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:17-33
-66        </activity>
-67        <activity
-67-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:9-50:20
-68            android:name="com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity"
-68-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:13-86
-69            android:exported="false" >
-69-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-37
-70            <meta-data
-70-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-42:36
-71                android:name="android.app.lib_name"
-71-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:17-52
-72                android:value="" />
-72-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:17-33
-73        </activity>
-74        <activity
-74-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:51:9-54:87
-75            android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
-75-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:13-74
-76            android:exported="true"
-76-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-36
-77            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
-77-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:13-84
-78        <activity
-78-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:55:9-57:39
-79            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
-79-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:56:13-57
-80            android:exported="true" />
-80-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:57:13-36
-81        <activity
-81-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:58:9-60:39
-82            android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
-82-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:13-74
-83            android:exported="true" />
-83-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-36
-84        <activity
-84-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:9-63:39
-85            android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
-85-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-78
-86            android:exported="true" />
-86-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:13-36
+33    <uses-feature
+33-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+34        android:glEsVersion="0x00020000"
+34-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+35        android:required="true" />
+35-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+38        android:name="com.optic.kotlinudemydelivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.optic.kotlinudemydelivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:5-94:19
+44        android:allowBackup="true"
+44-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-43
+48        android:label="@string/app_name"
+48-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-54
+50        android:supportsRtl="true"
+50-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.KotlinUdemyDelivery"
+52-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:9-57
+53        android:usesCleartextTraffic="true" >
+53-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:9-44
+54        <activity
+54-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:26:9-32:20
+55            android:name="com.optic.kotlinudemydelivery.activities.client.address.map.ClientAddressMapActivity"
+55-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:13-83
+56            android:exported="false" >
+56-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-37
+57            <meta-data
+57-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-31:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-52
+59                android:value="" />
+59-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:31:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:9-36:102
+62            android:name="com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity"
+62-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-89
+63            android:exported="false"
+63-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:35:13-37
+64            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" />
+64-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:36:13-99
+65        <activity
+65-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:37:9-40:102
+66            android:name="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity"
+66-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:38:13-85
+67            android:exported="false"
+67-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:39:13-37
+68            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" />
+68-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-99
+69        <activity
+69-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:9-44:87
+70            android:name="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity"
+70-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:13-85
+71            android:exported="false"
+71-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:43:13-37
+72            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
+72-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:13-84
+73        <activity
+73-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:9-51:20
+74            android:name="com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity"
+74-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-91
+75            android:exported="false" >
+75-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:47:13-37
+76            <meta-data
+76-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-31:36
+77                android:name="android.app.lib_name"
+77-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-52
+78                android:value="" />
+78-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:31:17-33
+79        </activity>
+80        <activity
+80-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:9-58:20
+81            android:name="com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity"
+81-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-86
+82            android:exported="false" >
+82-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:13-37
+83            <meta-data
+83-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:13-31:36
+84                android:name="android.app.lib_name"
+84-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-52
+85                android:value="" />
+85-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:31:17-33
+86        </activity>
 87        <activity
-87-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:9-66:39
-88            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
-88-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:13-59
-89            android:exported="true" />
-89-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:13-36
-90        <activity
-90-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:9-69:39
-91            android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
-91-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-70
-92            android:exported="true" />
-92-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:13-36
-93        <activity
-93-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:9-72:39
-94            android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
-94-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-56
-95            android:exported="true" />
-95-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:13-36
-96        <activity
-96-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:9-81:20
-97            android:name="com.optic.kotlinudemydelivery.activities.MainActivity"
-97-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-52
-98            android:exported="true" >
-98-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:13-36
-99            <intent-filter>
-99-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-80:29
-100                <action android:name="android.intent.action.MAIN" />
-100-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:17-69
-100-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:25-66
-101
-102                <category android:name="android.intent.category.LAUNCHER" />
-102-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:17-77
-102-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:27-74
-103            </intent-filter>
-104        </activity>
-105        <activity
-105-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
-106            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
-106-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
-107            android:screenOrientation="unspecified"
-107-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
-108            android:theme="@style/Theme.Transparent.ImagePicker" />
-108-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
+87-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:9-62:87
+88            android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
+88-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-74
+89            android:exported="true"
+89-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:13-36
+90            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
+90-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-84
+91        <activity
+91-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:9-65:39
+92            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
+92-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:13-57
+93            android:exported="true" />
+93-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:13-36
+94        <activity
+94-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:9-68:39
+95            android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
+95-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:13-74
+96            android:exported="true" />
+96-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-36
+97        <activity
+97-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:9-71:39
+98            android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
+98-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:13-78
+99            android:exported="true" />
+99-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-36
+100        <activity
+100-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:9-74:39
+101            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
+101-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:13-59
+102            android:exported="true" />
+102-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-36
+103        <activity
+103-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:9-77:39
+104            android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
+104-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-70
+105            android:exported="true" />
+105-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:13-36
+106        <activity
+106-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:78:9-80:39
+107            android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
+107-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:13-56
+108            android:exported="true" />
+108-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:80:13-36
 109        <activity
-109-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
-110            android:name="com.yalantis.ucrop.UCropActivity"
-110-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
-111            android:screenOrientation="portrait"
-111-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
-112            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-112-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
-113
-114        <provider
-114-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
-115            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
-115-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
-116            android:authorities="com.optic.kotlinudemydelivery.imagepicker.provider"
-116-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
-117            android:exported="false"
-117-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
-118            android:grantUriPermissions="true" >
-118-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
-119            <meta-data
-119-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:36:13-38:71
-120                android:name="android.support.FILE_PROVIDER_PATHS"
-120-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
-121                android:resource="@xml/image_picker_provider_paths" />
-121-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
-122        </provider>
-123        <provider
-123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-124            android:name="androidx.startup.InitializationProvider"
-124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-125            android:authorities="com.optic.kotlinudemydelivery.androidx-startup"
-125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-126            android:exported="false" >
-126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-127            <meta-data
-127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-129                android:value="androidx.startup" />
-129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-130            <meta-data
-130-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-131-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-132                android:value="androidx.startup" />
-132-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-133        </provider>
-134        <provider
-134-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-135            android:name="com.squareup.picasso.PicassoProvider"
-135-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-136            android:authorities="com.optic.kotlinudemydelivery.com.squareup.picasso"
-136-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-137            android:exported="false" />
-137-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-138    </application>
-139
-140</manifest>
+109-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:81:9-89:20
+110            android:name="com.optic.kotlinudemydelivery.activities.MainActivity"
+110-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:82:13-52
+111            android:exported="true" >
+111-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:83:13-36
+112            <intent-filter>
+112-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:84:13-88:29
+113                <action android:name="android.intent.action.MAIN" />
+113-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:17-69
+113-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:25-66
+114
+115                <category android:name="android.intent.category.LAUNCHER" />
+115-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:17-77
+115-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:27-74
+116            </intent-filter>
+117        </activity>
+118
+119        <meta-data
+119-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:91:9-93:71
+120            android:name="com.google.android.geo.API_KEY"
+120-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:92:13-58
+121            android:value="AIzaSyCEvbX7i7-JG1tHySNzfx1Uu6l0RNUNtnw" />
+121-->C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:93:13-68
+122
+123        <activity
+123-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+124            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+124-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:23:13-81
+125            android:screenOrientation="unspecified"
+125-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:24:13-52
+126            android:theme="@style/Theme.Transparent.ImagePicker" />
+126-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:25:13-65
+127        <activity
+127-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+128            android:name="com.yalantis.ucrop.UCropActivity"
+128-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:27:13-60
+129            android:screenOrientation="portrait"
+129-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:28:13-49
+130            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+130-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:29:13-69
+131
+132        <provider
+132-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+133            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+133-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:32:13-85
+134            android:authorities="com.optic.kotlinudemydelivery.imagepicker.provider"
+134-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:33:13-72
+135            android:exported="false"
+135-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:34:13-37
+136            android:grantUriPermissions="true" >
+136-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:35:13-47
+137            <meta-data
+137-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:36:13-38:71
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:37:17-67
+139                android:resource="@xml/image_picker_provider_paths" />
+139-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:38:17-68
+140        </provider> <!-- Needs to be explicitly declared on P+ -->
+141        <uses-library
+141-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+142            android:name="org.apache.http.legacy"
+142-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+143            android:required="false" />
+143-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+144
+145        <activity
+145-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+146            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+146-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+149
+150        <meta-data
+150-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+153
+154        <provider
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+155            android:name="androidx.startup.InitializationProvider"
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+156            android:authorities="com.optic.kotlinudemydelivery.androidx-startup"
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+157            android:exported="false" >
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+158            <meta-data
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+160                android:value="androidx.startup" />
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+161            <meta-data
+161-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+162                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+162-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+163                android:value="androidx.startup" />
+163-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+164        </provider>
+165        <provider
+165-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+166            android:name="com.squareup.picasso.PicassoProvider"
+166-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+167            android:authorities="com.optic.kotlinudemydelivery.com.squareup.picasso"
+167-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+168            android:exported="false" />
+168-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-3\772b27b3284f41f5f9f897811159ba2c\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+169    </application>
+170
+171</manifest>

@@ -34,12 +34,14 @@ drawable ic_phone_gray
 drawable ic_pizza
 drawable ic_power
 drawable ic_remove
+drawable my_location
 drawable rounded_button
 drawable user_icon
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
 id bottom_navigation
+id btn_accept
 id btn_add_product
 id btn_confirm
 id btn_create
@@ -84,12 +86,14 @@ id item_orders
 id item_product
 id item_profile
 id item_shopping_bag
+id map
 id recyclerview_address
 id recyclerview_categories
 id recyclerview_products
 id recyclerview_roles
 id recyclerview_shopping_bag
 id spinner_categories
+id textview_address
 id textview_category
 id textview_counter
 id textview_description
@@ -103,6 +107,7 @@ id toolbar
 layout action_bar
 layout activity_client_address_create
 layout activity_client_address_list
+layout activity_client_address_map
 layout activity_client_home
 layout activity_client_product_list
 layout activity_client_products_detail
@@ -132,6 +137,7 @@ menu menu_shopping_bag
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string google_map_api_key
 string hello_blank_fragment
 style Theme.KotlinUdemyDelivery
 xml backup_rules

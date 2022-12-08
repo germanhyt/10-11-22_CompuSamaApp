@@ -13,6 +13,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Kotlin Udemy Delivery</string>
+    <string name="google_map_api_key">AIzaSyCEvbX7i7-JG1tHySNzfx1Uu6l0RNUNtnw</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Theme.KotlinUdemyDelivery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         

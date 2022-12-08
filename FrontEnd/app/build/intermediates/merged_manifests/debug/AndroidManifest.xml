@@ -12,6 +12,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <queries>
@@ -24,7 +26,13 @@
         <intent>
             <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
         </intent>
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
     </queries>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <permission
         android:name="com.optic.kotlinudemydelivery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -44,15 +52,20 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.address.map.ClientAddressMapActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity"
             android:exported="false"
-            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" >
-        </activity>
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity"
             android:exported="false"
-            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" >
-        </activity>
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity"
             android:exported="false"
@@ -102,6 +115,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCEvbX7i7-JG1tHySNzfx1Uu6l0RNUNtnw" />
+
         <activity
             android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
             android:screenOrientation="unspecified"
@@ -119,7 +137,20 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/image_picker_provider_paths" />
-        </provider>
+        </provider> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.optic.kotlinudemydelivery.androidx-startup"
