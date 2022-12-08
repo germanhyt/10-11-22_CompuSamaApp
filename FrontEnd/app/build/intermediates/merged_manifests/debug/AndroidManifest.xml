@@ -44,6 +44,20 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity"
+            android:exported="false"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" >
+        </activity>
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity"
+            android:exported="false"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" >
+        </activity>
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity"
+            android:exported="false"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity"
             android:exported="false" >
             <meta-data

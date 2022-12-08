@@ -2660,10 +2660,13 @@ drawable error
 drawable gradient
 drawable hamburguesa
 drawable ic_add
+drawable ic_add_simple
 drawable ic_arrow_left
 drawable ic_arrow_right
+drawable ic_bag
 drawable ic_category
 drawable ic_clock_black_24dp
+drawable ic_delete
 drawable ic_email_gray
 drawable ic_home
 drawable ic_image
@@ -2887,6 +2890,7 @@ id bounceStart
 id btn_add_product
 id btn_confirm
 id btn_create
+id btn_create_address
 id btn_login
 id btn_next
 id btn_register
@@ -2970,15 +2974,18 @@ id easeInOut
 id easeOut
 id east
 id edit_query
+id edittext_address
 id edittext_category
 id edittext_confirm_password
 id edittext_description
 id edittext_email
 id edittext_lastname
 id edittext_name
+id edittext_neighborhood
 id edittext_password
 id edittext_phone
 id edittext_price
+id edittext_ref_point
 id elastic
 id embed
 id end
@@ -2989,6 +2996,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_address_create
 id fade
 id fill
 id fill_horizontal
@@ -3037,6 +3045,7 @@ id image_view_state_scale
 id imageslider
 id imageview_add
 id imageview_category
+id imageview_delete
 id imageview_go_to_login
 id imageview_go_to_register
 id imageview_image1
@@ -3058,6 +3067,7 @@ id item_home
 id item_orders
 id item_product
 id item_profile
+id item_shopping_bag
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3182,9 +3192,11 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerview_address
 id recyclerview_categories
 id recyclerview_products
 id recyclerview_roles
+id recyclerview_shopping_bag
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3302,6 +3314,7 @@ id textview_name
 id textview_phone
 id textview_price
 id textview_rol
+id textview_total
 id time
 id title
 id titleDividerNoCustom
@@ -3476,9 +3489,12 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout action_bar
+layout activity_client_address_create
+layout activity_client_address_list
 layout activity_client_home
 layout activity_client_product_list
 layout activity_client_products_detail
+layout activity_client_shopping_bag
 layout activity_client_update
 layout activity_delivery_home
 layout activity_main
@@ -3489,6 +3505,7 @@ layout activity_select_roles
 layout cardview_categories
 layout cardview_product
 layout cardview_roles
+layout cardview_shopping_bag
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3593,6 +3610,7 @@ layout ucrop_view
 menu bottom_navigation_menu_client
 menu bottom_navigation_menu_delivery
 menu bottom_navigation_menu_restaurant
+menu menu_shopping_bag
 menu ucrop_menu_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
