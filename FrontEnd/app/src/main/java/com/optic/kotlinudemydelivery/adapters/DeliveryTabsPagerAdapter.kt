@@ -6,9 +6,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.optic.kotlinudemydelivery.fragments.client.ClientOrdersStatusFragment
+import com.optic.kotlinudemydelivery.fragments.delivery.DeliveryOrdersStatusFragment
 import com.optic.kotlinudemydelivery.fragments.restaurant.RestaurantOrdersStatusFragment
 
-class RestaurantTabsPagerAdapter(
+class DeliveryTabsPagerAdapter(
     fragmentManager: FragmentManager,
     lifecycle: Lifecycle,
     var numberOfTabs: Int
@@ -24,33 +25,26 @@ class RestaurantTabsPagerAdapter(
         when(position) {
             0 -> {
                 val bundle = Bundle()
-                bundle.putString("status", "PAGADO")
-                val fragment = RestaurantOrdersStatusFragment()
+                bundle.putString("status", "DESPACHADO")
+                val fragment = DeliveryOrdersStatusFragment()
                 fragment.arguments = bundle
                 return fragment
             }
             1 -> {
                 val bundle = Bundle()
-                bundle.putString("status", "DESPACHADO")
-                val fragment = RestaurantOrdersStatusFragment()
+                bundle.putString("status", "EN CAMINO")
+                val fragment = DeliveryOrdersStatusFragment()
                 fragment.arguments = bundle
                 return fragment
             }
             2 -> {
                 val bundle = Bundle()
-                bundle.putString("status", "EN CAMINO")
-                val fragment = RestaurantOrdersStatusFragment()
-                fragment.arguments = bundle
-                return fragment
-            }
-            3 -> {
-                val bundle = Bundle()
                 bundle.putString("status", "ENTREGADO")
-                val fragment = RestaurantOrdersStatusFragment()
+                val fragment = DeliveryOrdersStatusFragment()
                 fragment.arguments = bundle
                 return fragment
             }
-            else -> return RestaurantOrdersStatusFragment()
+            else -> return DeliveryOrdersStatusFragment()
         }
 
     }

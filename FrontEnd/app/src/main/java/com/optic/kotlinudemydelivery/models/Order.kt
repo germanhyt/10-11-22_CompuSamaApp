@@ -16,6 +16,8 @@ class Order(
     @SerializedName("address") val address: Address? = null
 ) {
 
+
+
     fun toJson(): String {
         return Gson().toJson(this)
     }

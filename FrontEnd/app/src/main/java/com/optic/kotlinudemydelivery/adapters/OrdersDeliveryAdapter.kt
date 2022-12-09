@@ -16,6 +16,7 @@ import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
 import com.optic.kotlinudemydelivery.activities.client.orders.detail.ClientOrdersDetailActivity
 import com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
+import com.optic.kotlinudemydelivery.activities.delivery.orders.detail.DeliveryOrdersDetailActivity
 import com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity
 import com.optic.kotlinudemydelivery.activities.restaurant.orders.detail.RestaurantOrdersDetailActivity
 import com.optic.kotlinudemydelivery.models.Address
@@ -24,7 +25,7 @@ import com.optic.kotlinudemydelivery.models.Order
 import com.optic.kotlinudemydelivery.models.Rol
 import com.optic.kotlinudemydelivery.utils.SharedPref
 
-class OrdersRestaurantAdapter(val context: Activity, val orders: ArrayList<Order>): RecyclerView.Adapter<OrdersRestaurantAdapter.OrdersViewHolder>() {
+class OrdersDeliveryAdapter(val context: Activity, val orders: ArrayList<Order>): RecyclerView.Adapter<OrdersDeliveryAdapter.OrdersViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OrdersViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.cardview_orders_restaurant, parent, false)
@@ -48,7 +49,7 @@ class OrdersRestaurantAdapter(val context: Activity, val orders: ArrayList<Order
     }
 
     private fun goToOrderDetail(order: Order) {
-        val i = Intent(context, RestaurantOrdersDetailActivity::class.java)
+        val i = Intent(context, DeliveryOrdersDetailActivity::class.java)
         i.putExtra("order", order.toJson())
         context.startActivity(i)
     }

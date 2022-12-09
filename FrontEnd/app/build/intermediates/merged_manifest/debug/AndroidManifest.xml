@@ -52,50 +52,52 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.optic.kotlinudemydelivery.activities.client.orders.detail.ClientOrdersDetailActivity"
-            android:exported="false"
-            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" >
+            android:name="com.optic.kotlinudemydelivery.activities.delivery.orders.map.DeliveryOrdersMapActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.delivery.orders.detail.DeliveryOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.restaurant.orders.detail.RestaurantOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.orders.detail.ClientOrdersDetailActivity"
+            android:exported="true"
+            android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.payments.form.ClientPaymentFormActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.address.map.ClientAddressMapActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity"
-            android:exported="false"
+            android:exported="true"
             android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity"
-            android:exported="false"
+            android:exported="true"
             android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity"
-            android:exported="false"
+            android:exported="true"
             android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity"
+            android:exported="true" />
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity"
             android:exported="true"
             android:parentActivityName="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity" />
-        <activity
-            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
-            android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity"
             android:exported="true" />
@@ -103,13 +105,16 @@
             android:name="com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity"
             android:exported="true" />
         <activity
-            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
-            android:exported="true" />
-        <activity
             android:name="com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity"
             android:exported="true" />
         <activity
+            android:name="com.optic.kotlinudemydelivery.activities.SelectRolesActivity"
+            android:exported="true" />
+        <activity
             android:name="com.optic.kotlinudemydelivery.activities.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.optic.kotlinudemydelivery.activities.SaveImageActivity"
             android:exported="true" />
         <activity
             android:name="com.optic.kotlinudemydelivery.activities.MainActivity"

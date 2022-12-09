@@ -28,6 +28,10 @@
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable-v24/user_icon.png"
     },
     {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_activity_delivery_orders_map.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_delivery_orders_map.xml"
+    },
+    {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_activity_delivery_home.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_delivery_home.xml"
     },
@@ -48,6 +52,10 @@
         "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/cardview_orders.xml"
     },
     {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_fragment_delivery_orders_status.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/fragment_delivery_orders_status.xml"
+    },
+    {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable_ic_add_simple.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable/ic_add_simple.xml"
     },
@@ -64,6 +72,10 @@
         "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_main.xml"
     },
     {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable-v24_delivery.png.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable-v24/delivery.png"
+    },
+    {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable_ic_arrow_left.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable/ic_arrow_left.xml"
     },
@@ -74,6 +86,10 @@
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable_edittext_custom.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable/edittext_custom.xml"
+    },
+    {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_cardview_orders_restaurant.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/cardview_orders_restaurant.xml"
     },
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -134,6 +150,10 @@
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable_ic_person.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_activity_restaurant_orders_detail.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_restaurant_orders_detail.xml"
     },
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/xml_backup_rules.xml.flat",
@@ -232,6 +252,10 @@
         "source": "com.optic.kotlinudemydelivery.app-main-42:/drawable/ic_category.xml"
     },
     {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_fragment_restaurant_orders_status.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/fragment_restaurant_orders_status.xml"
+    },
+    {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_activity_client_address_create.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_client_address_create.xml"
     },
@@ -262,6 +286,10 @@
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_fragment_restaurant_orders.xml.flat",
         "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/fragment_restaurant_orders.xml"
+    },
+    {
+        "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/layout_activity_delivery_orders_detail.xml.flat",
+        "source": "com.optic.kotlinudemydelivery.app-main-42:/layout/activity_delivery_orders_detail.xml"
     },
     {
         "merged": "com.optic.kotlinudemydelivery.app-merged_res-40:/drawable_ic_power.xml.flat",

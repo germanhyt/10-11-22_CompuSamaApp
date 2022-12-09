@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color blue
 color gray
 color gray_light
 color green
@@ -9,9 +10,12 @@ color orange
 color purple_200
 color purple_500
 color purple_700
+color red
 color teal_200
 color teal_700
 color white
+color whiteLight
+drawable delivery
 drawable edittext_custom
 drawable hamburguesa
 drawable ic_add
@@ -47,6 +51,7 @@ id btn_add_product
 id btn_confirm
 id btn_create
 id btn_create_address
+id btn_go_to_map
 id btn_login
 id btn_next
 id btn_register
@@ -97,12 +102,16 @@ id recyclerview_products
 id recyclerview_roles
 id recyclerview_shopping_bag
 id spinner_categories
+id spinner_delivery_men
 id tab_layout
 id textview_address
 id textview_category
 id textview_client
 id textview_counter
 id textview_date
+id textview_delivery
+id textview_delivery_assigned
+id textview_delivery_available
 id textview_description
 id textview_email
 id textview_name
@@ -128,15 +137,19 @@ layout activity_client_products_detail
 layout activity_client_shopping_bag
 layout activity_client_update
 layout activity_delivery_home
+layout activity_delivery_orders_detail
+layout activity_delivery_orders_map
 layout activity_main
 layout activity_register
 layout activity_restaurant_home
+layout activity_restaurant_orders_detail
 layout activity_save_image
 layout activity_select_roles
 layout cardview_address
 layout cardview_categories
 layout cardview_order_products
 layout cardview_orders
+layout cardview_orders_restaurant
 layout cardview_product
 layout cardview_roles
 layout cardview_shopping_bag
@@ -145,8 +158,10 @@ layout fragment_client_orders
 layout fragment_client_orders_status
 layout fragment_client_profile
 layout fragment_delivery_orders
+layout fragment_delivery_orders_status
 layout fragment_restaurant_category
 layout fragment_restaurant_orders
+layout fragment_restaurant_orders_status
 layout fragment_restaurant_product
 menu bottom_navigation_menu_client
 menu bottom_navigation_menu_delivery

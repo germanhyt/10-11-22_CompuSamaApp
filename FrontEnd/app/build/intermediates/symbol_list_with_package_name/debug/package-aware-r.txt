@@ -1332,6 +1332,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1912,6 +1913,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1956,6 +1958,7 @@ color ucrop_color_widget_rotate_mid_line
 color ucrop_color_widget_text
 color ucrop_scale_text_view_selector
 color white
+color whiteLight
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2713,6 +2716,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable default_selected_dot
 drawable default_unselected_dot
+drawable delivery
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2962,6 +2966,7 @@ id btn_add_product
 id btn_confirm
 id btn_create
 id btn_create_address
+id btn_go_to_map
 id btn_login
 id btn_next
 id btn_register
@@ -3327,6 +3332,7 @@ id south
 id spacer
 id special_effects_controller_view_tag
 id spinner_categories
+id spinner_delivery_men
 id spline
 id split_action_bar
 id spread
@@ -3393,6 +3399,9 @@ id textview_category
 id textview_client
 id textview_counter
 id textview_date
+id textview_delivery
+id textview_delivery_assigned
+id textview_delivery_available
 id textview_description
 id textview_email
 id textview_name
@@ -3594,9 +3603,12 @@ layout activity_client_products_detail
 layout activity_client_shopping_bag
 layout activity_client_update
 layout activity_delivery_home
+layout activity_delivery_orders_detail
+layout activity_delivery_orders_map
 layout activity_main
 layout activity_register
 layout activity_restaurant_home
+layout activity_restaurant_orders_detail
 layout activity_save_image
 layout activity_select_roles
 layout amu_info_window
@@ -3606,6 +3618,7 @@ layout cardview_address
 layout cardview_categories
 layout cardview_order_products
 layout cardview_orders
+layout cardview_orders_restaurant
 layout cardview_product
 layout cardview_roles
 layout cardview_shopping_bag
@@ -3631,8 +3644,10 @@ layout fragment_client_orders
 layout fragment_client_orders_status
 layout fragment_client_profile
 layout fragment_delivery_orders
+layout fragment_delivery_orders_status
 layout fragment_restaurant_category
 layout fragment_restaurant_orders
+layout fragment_restaurant_orders_status
 layout fragment_restaurant_product
 layout image_slider
 layout m3_alert_dialog
