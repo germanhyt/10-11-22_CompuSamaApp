@@ -4,6 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const keys = require('../config/keys');
 const storage = require('../utils/cloud_storage');
+const { findDeliveryMen } = require('../models/user');
 
 module.exports = {
 
@@ -11,6 +12,22 @@ module.exports = {
         try{
             const data = await User.getAll();
             console.log(`Usuarios: ${data}`);
+            return res.status(201).json(data);
+
+        }
+        catch (error) {
+            console.log(`Error: ${error}`);
+            return res.status(501).json({
+                success: false,
+                message: 'Error al obtener los usuarios'
+            });
+        }
+    },
+
+    async findDeliveryMen(req, res, next) {
+        try{
+            const data = await User.findDeliveryMen();
+
             return res.status(201).json(data);
 
         }

@@ -7,10 +7,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -23,6 +21,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".RestaurantOrdersDetailActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.client.orders.detail.ClientOrdersDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.client.home.ClientHomeActivity"></activity>
+        <activity
+            android:name=".activities.client.payments.form.ClientPaymentFormActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activities.client.address.map.ClientAddressMapActivity"
             android:exported="false">
@@ -42,13 +58,6 @@
             android:name=".activities.client.shopping_bag.ClientShoppingBagActivity"
             android:exported="false"
             android:parentActivityName=".activities.client.home.ClientHomeActivity" />
-        <activity
-            android:name=".activities.client.products.detail.ClientProductsDetailActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".activities.client.products.list.ClientProductListActivity"
             android:exported="false">

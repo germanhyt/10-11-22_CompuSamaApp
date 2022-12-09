@@ -2730,6 +2730,7 @@ drawable ic_arrow_left
 drawable ic_arrow_right
 drawable ic_bag
 drawable ic_category
+drawable ic_check
 drawable ic_clock_black_24dp
 drawable ic_delete
 drawable ic_email_gray
@@ -3118,6 +3119,7 @@ id image_view_state_scale
 id imageslider
 id imageview_add
 id imageview_category
+id imageview_check
 id imageview_delete
 id imageview_go_to_login
 id imageview_go_to_register
@@ -3156,6 +3158,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id linear_layout
 id listMode
 id list_item
@@ -3269,6 +3272,7 @@ id ratio
 id rectangles
 id recyclerview_address
 id recyclerview_categories
+id recyclerview_orders
 id recyclerview_products
 id recyclerview_roles
 id recyclerview_shopping_bag
@@ -3349,6 +3353,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tab_layout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3385,13 +3390,19 @@ id textinput_prefix_text
 id textinput_suffix_text
 id textview_address
 id textview_category
+id textview_client
 id textview_counter
+id textview_date
 id textview_description
 id textview_email
 id textview_name
+id textview_neighborhood
+id textview_order_id
 id textview_phone
 id textview_price
+id textview_quantity
 id textview_rol
+id textview_status
 id textview_total
 id time
 id title
@@ -3428,6 +3439,7 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id viewpager
 id visible
 id visible_removing_fragment_view_tag
 id webview
@@ -3575,6 +3587,8 @@ layout activity_client_address_create
 layout activity_client_address_list
 layout activity_client_address_map
 layout activity_client_home
+layout activity_client_orders_detail
+layout activity_client_payment_form
 layout activity_client_product_list
 layout activity_client_products_detail
 layout activity_client_shopping_bag
@@ -3588,7 +3602,10 @@ layout activity_select_roles
 layout amu_info_window
 layout amu_text_bubble
 layout amu_webview
+layout cardview_address
 layout cardview_categories
+layout cardview_order_products
+layout cardview_orders
 layout cardview_product
 layout cardview_roles
 layout cardview_shopping_bag
@@ -3611,6 +3628,7 @@ layout design_text_input_start_icon
 layout dialog_choose_app
 layout fragment_client_categories
 layout fragment_client_orders
+layout fragment_client_orders_status
 layout fragment_client_profile
 layout fragment_delivery_orders
 layout fragment_restaurant_category

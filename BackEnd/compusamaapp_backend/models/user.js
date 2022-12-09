@@ -55,6 +55,35 @@ User.findByEmail = (email) => {
     return db.oneOrNone(sql, email);
 }
 
+User.findDeliveryMen = () => {
+    const sql = `
+    SELECT
+        U.id,
+        U.email,
+        U.name,
+        U.lastname,
+        U.image,
+        U.phone,
+        U.password,
+        U.session_token
+    FROM
+        users AS U
+	INNER JOIN
+		user_has_roles AS UHR
+	ON
+		UHR.id_user = U.id
+	INNER JOIN
+		roles AS R
+	ON
+		R.id = UHR.id_rol
+    WHERE
+        R.id = 3
+
+    `;
+
+    return db.manyOrNone(sql);
+}
+
 
 User.findById = (id, callback) => {
     const sql = `

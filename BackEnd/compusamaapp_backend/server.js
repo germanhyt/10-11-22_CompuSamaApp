@@ -34,6 +34,7 @@ const users = require('./routes/usersRoutes');
 const categories = require('./routes/categoriesRoutes');
 const products = require('./routes/productsRoutes');
 const address = require('./routes/addressRoutes');
+const orders = require('./routes/ordersRoutes');
 
 const port = process.env.PORT || 3000;
 
@@ -59,8 +60,9 @@ app.set('port', port);
 
 users(app, upload);
 categories(app, upload);
-products(app, upload);
 address(app);
+orders(app);
+products(app, upload);
 
 server.listen(3000,'192.168.18.2' || 'localhost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')

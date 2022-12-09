@@ -48,12 +48,12 @@ class ClientProductsDetailActivity : AppCompatActivity() {
 
         imageSlider = findViewById(R.id.imageslider)
         textViewName = findViewById(R.id.textview_name)
-        textViewDescription= findViewById(R.id.textview_description)
-        textViewPrice= findViewById(R.id.textview_price)
-        textViewCounter= findViewById(R.id.textview_counter)
-        imageViewAdd= findViewById(R.id.imageview_add)
-        imageViewRemove= findViewById(R.id.imageview_remove)
-        buttonAdd= findViewById(R.id.btn_add_product)
+        textViewDescription = findViewById(R.id.textview_description)
+        textViewPrice = findViewById(R.id.textview_price)
+        textViewCounter = findViewById(R.id.textview_counter)
+        imageViewAdd = findViewById(R.id.imageview_add)
+        imageViewRemove = findViewById(R.id.imageview_remove)
+        buttonAdd = findViewById(R.id.btn_add_product)
 
         val imageList = ArrayList<SlideModel>()
         imageList.add(SlideModel(product?.image1, ScaleTypes.CENTER_CROP))
@@ -67,7 +67,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
         textViewPrice?.text = "${product?.price}$"
 
         imageViewAdd?.setOnClickListener { addItem() }
-        imageViewRemove?.setOnClickListener{ removeItem()}
+        imageViewRemove?.setOnClickListener { removeItem() }
         buttonAdd?.setOnClickListener { addToBag() }
 
         getProductsFromSharedPref()
@@ -77,7 +77,7 @@ class ClientProductsDetailActivity : AppCompatActivity() {
         val index = getIndexOf(product?.id!!) // INDICE DEL PRODUCTO SI ES QUE EXISTE EN SHARED PREF
 
         if (index == -1) { // ESTE PRODUCTO NO EXISTE AUN EN SHARED PREF
-            if (product?.quantity == 0) {
+            if (product?.quantity == null) {
                 product?.quantity = 1
             }
             selectedProducts.add(product!!)
@@ -143,6 +143,5 @@ class ClientProductsDetailActivity : AppCompatActivity() {
             textViewCounter?.text = "${product?.quantity}"
             textViewPrice?.text = "${productPrice}$"
         }
-
     }
 }

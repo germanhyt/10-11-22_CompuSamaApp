@@ -127,7 +127,69 @@ CREATE TABLE address(
 
 );
 
+DROP TABLE IF EXISTS orders CASCADE;
+CREATE TABLE orders(
+	id BIGSERIAL PRIMARY KEY,
+	id_client BIGINT NOT NULL,
+	id_delivery BIGINT NOT NULL,
+	id_address BIGINT NOT NULL,
+	lat DECIMAL DEFAULT 0,
+	lng DECIMAL DEFAULT 0,
+	status VARCHAR(90) NOT NULL,
+	timestamp BIGINT NOT NULL,
+	created_at TIMESTAMP(0) NOT NULL,
+	updated_at TIMESTAMP(0) NOT NULL,
+	FOREIGN KEY(id_client) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE,
+	FOREIGN KEY(id_delivery) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE,
+	FOREIGN KEY(id_address) REFERENCES address(id) ON UPDATE CASCADE ON DELETE CASCADE
 
+);
+
+DROP TABLE IF EXISTS order_has_products CASCADE;
+CREATE TABLE order_has_products(
+	id_order BIGINT NOT NULL,
+	id_product BIGINT NOT NULL,
+	quantity BIGINT NOT NULL,
+	created_at TIMESTAMP(0) NOT NULL,
+	updated_at TIMESTAMP(0) NOT NULL,
+	PRIMARY KEY(id_order, id_product),
+	FOREIGN KEY(id_order) REFERENCES orders(id) ON UPDATE CASCADE ON DELETE CASCADE,
+	FOREIGN KEY(id_product) REFERENCES products(id) ON UPDATE CASCADE ON DELETE CASCADE
+
+);
+
+SELECT
+	O.id,
+	O.id_client,
+	O.id_address,
+	O.id_delivery,
+	O.status,
+	O.timestamp,
+	JSON_BUILD_OBJECT(
+		'id', U.id,
+		'name',  U.name,
+		'lastname', U.lastname,
+		'image', U.image
+	) AS client,
+	JSON_BUILD_OBJECT(
+		'id', A.id,
+		'address',  A.address,
+		'neighborhood', A.neighborhood,
+		'lat', A.lat,
+		'lng', A.lng
+	) AS address
+FROM
+	orders AS O
+INNER JOIN
+	users AS U
+ON
+	O.id_client = U.id
+INNER JOIN
+	address AS A
+ON
+	A.id = O.id_address
+WHERE
+	status = 'PAGADO'
 
 
 */

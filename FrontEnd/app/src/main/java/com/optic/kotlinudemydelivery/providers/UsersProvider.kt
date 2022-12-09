@@ -1,7 +1,7 @@
 package com.optic.kotlinudemydelivery.providers
 
-
 import com.optic.kotlinudemydelivery.api.ApiRoutes
+import com.optic.kotlinudemydelivery.models.Category
 import com.optic.kotlinudemydelivery.models.ResponseHttp
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.routes.UsersRoutes
@@ -20,10 +20,14 @@ class UsersProvider(val token: String? = null) {
         val api = ApiRoutes()
         usersRoutes = api.getUsersRoutes()
 
-        if (token != null){
+        if (token != null) {
             usersRoutesToken = api.getUsersRoutesWithToken(token!!)
         }
 
+    }
+
+    fun getDeliveryMen(): Call<ArrayList<User>>? {
+        return usersRoutesToken?.getDeliveryMen(token!!)
     }
 
     fun register(user: User): Call<ResponseHttp>? {
@@ -35,14 +39,14 @@ class UsersProvider(val token: String? = null) {
     }
 
     fun updateWithoutImage(user: User): Call<ResponseHttp>? {
-        return usersRoutesToken?.updateWithoutImage(user,token!!)
+        return usersRoutesToken?.updateWithoutImage(user, token!!)
     }
 
     fun update(file: File, user: User): Call<ResponseHttp>? {
         val reqFile = RequestBody.create(MediaType.parse("image/*"), file)
         val image = MultipartBody.Part.createFormData("image", file.name, reqFile)
-        val RequestBody = RequestBody.create(MediaType.parse("text/plain"), user.toJson())
-
-        return usersRoutesToken?.update(image, RequestBody, token!!)
+        val requestBody = RequestBody.create(MediaType.parse("text/plain"), user.toJson())
+        return usersRoutesToken?.update(image, requestBody, token!!)
     }
+
 }

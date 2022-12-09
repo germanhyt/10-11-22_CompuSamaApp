@@ -1,6 +1,5 @@
 package com.optic.kotlinudemydelivery.routes
 
-
 import com.optic.kotlinudemydelivery.models.Category
 import com.optic.kotlinudemydelivery.models.ResponseHttp
 import com.optic.kotlinudemydelivery.models.User
@@ -26,4 +25,4 @@ interface CategoriesRoutes {
 
 
 
-}
+}}
