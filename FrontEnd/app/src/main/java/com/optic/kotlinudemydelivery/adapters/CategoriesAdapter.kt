@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.optic.kotlinudemydelivery.R
 import com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
-import com.optic.kotlinudemydelivery.activities.client.products.list.ClientProductListActivity
+import com.optic.kotlinudemydelivery.activities.client.products.detail.list.ClientProductListActivity
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity
 import com.optic.kotlinudemydelivery.models.Category

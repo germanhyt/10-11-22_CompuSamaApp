@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.client.products.list.ClientProductListActivity">
+    tools:context=".activities.client.products.detail.list.ClientProductListActivity">
 
     <include layout="@layout/action_bar"/>
 

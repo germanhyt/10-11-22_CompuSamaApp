@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
@@ -21,6 +22,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.client.orders.map.ClientOrdersMapActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activities.delivery.orders.map.DeliveryOrdersMapActivity"
             android:exported="false">
@@ -62,13 +70,12 @@
             android:name=".activities.client.products.detail.ClientProductsDetailActivity"
             android:exported="true" />
         <activity
-            android:name=".activities.client.products.list.ClientProductListActivity"
+            android:name=".activities.client.products.detail.list.ClientProductListActivity"
             android:exported="true" />
         <activity
             android:name=".activities.client.update.ClientUpdateActivity"
             android:exported="true"
             android:parentActivityName=".activities.client.home.ClientHomeActivity" />
-
         <activity
             android:name=".activities.delivery.home.DeliveryHomeActivity"
             android:exported="true" />
@@ -99,7 +106,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCEvbX7i7-JG1tHySNzfx1Uu6l0RNUNtnw" />
+            android:value="AIzaSyDNKtFtUukrJskIlYi7MiU0d44vnFgxhIw" />
     </application>
 
 </manifest>

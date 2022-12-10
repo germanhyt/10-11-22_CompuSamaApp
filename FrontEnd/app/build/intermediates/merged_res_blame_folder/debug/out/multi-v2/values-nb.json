@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-38:/values-nb/values-nb.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-39:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-nb\\values-nb.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-38:/values-or/values-or.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-39:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\9456f475ea18ece41b0e1f623957d888\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-or\\values.xml",

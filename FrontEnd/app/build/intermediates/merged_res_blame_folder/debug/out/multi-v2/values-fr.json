@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-38:/values-fr/values-fr.xml",
+            "outputFile": "com.optic.kotlinudemydelivery.app-mergeDebugResources-39:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\ccd18369c220fe591d37e95b90089951\\transformed\\jetified-ucrop-2.2.6\\res\\values-fr\\values-fr.xml",

@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/check_circle_outline/baseline_check_circle_outline_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/local_phone/baseline_local_phone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -34,8 +34,8 @@
                         <option name="values">
                           <map>
                             <entry key="autoMirrored" value="true" />
-                            <entry key="color" value="21b510" />
-                            <entry key="outputName" value="ic_check" />
+                            <entry key="color" value="d2d2d2" />
+                            <entry key="outputName" value="ic_phone_gray" />
                             <entry key="sourceFile" value="C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd" />
                           </map>
                         </option>

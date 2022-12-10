@@ -13,10 +13,10 @@ class Order(
     @SerializedName("products") val products: ArrayList<Product>,
     @SerializedName("client") val client: User? = null,
     @SerializedName("delivery") val delivery: User? = null,
-    @SerializedName("address") val address: Address? = null
+    @SerializedName("address") val address: Address? = null,
+    @SerializedName("lat") var lat: Double? = null,
+    @SerializedName("lng") var lng: Double? = null
 ) {
-
-
 
     fun toJson(): String {
         return Gson().toJson(this)

@@ -1,4 +1,4 @@
-package com.optic.kotlinudemydelivery.activities.client.products.list
+package com.optic.kotlinudemydelivery.activities.client.products.detail.list
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

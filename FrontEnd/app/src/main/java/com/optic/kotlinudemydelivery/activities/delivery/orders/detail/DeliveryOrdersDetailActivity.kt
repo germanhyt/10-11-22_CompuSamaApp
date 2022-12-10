@@ -1,6 +1,5 @@
 package com.optic.kotlinudemydelivery.activities.delivery.orders.detail
 
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -139,6 +138,7 @@ class DeliveryOrdersDetailActivity : AppCompatActivity() {
 
     private fun goToMap() {
         val i = Intent(this, DeliveryOrdersMapActivity::class.java)
+        i.putExtra("order", order?.toJson())
         startActivity(i)
     }
 

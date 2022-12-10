@@ -15,9 +15,11 @@ color teal_200
 color teal_700
 color white
 color whiteLight
+drawable card_radius
 drawable delivery
 drawable edittext_custom
 drawable hamburguesa
+drawable home
 drawable ic_add
 drawable ic_add_simple
 drawable ic_arrow_left
@@ -31,6 +33,8 @@ drawable ic_home
 drawable ic_image
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location_on
+drawable ic_my_location
 drawable ic_orders
 drawable ic_person
 drawable ic_person_pin
@@ -51,6 +55,7 @@ id btn_add_product
 id btn_confirm
 id btn_create
 id btn_create_address
+id btn_delivered
 id btn_go_to_map
 id btn_login
 id btn_next
@@ -84,6 +89,7 @@ id imageview_image1
 id imageview_image2
 id imageview_image3
 id imageview_logout
+id imageview_phone
 id imageview_product
 id imageview_remove
 id imageview_rol
@@ -131,6 +137,7 @@ layout activity_client_address_list
 layout activity_client_address_map
 layout activity_client_home
 layout activity_client_orders_detail
+layout activity_client_orders_map
 layout activity_client_payment_form
 layout activity_client_product_list
 layout activity_client_products_detail

@@ -1902,6 +1902,7 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color orange
+color pathColor
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2695,6 +2696,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable card_radius
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2728,6 +2730,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
 drawable hamburguesa
+drawable home
 drawable ic_add
 drawable ic_add_simple
 drawable ic_arrow_left
@@ -2743,6 +2746,8 @@ drawable ic_image
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location
+drawable ic_location_on
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2750,6 +2755,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_my_location
 drawable ic_orders
 drawable ic_person
 drawable ic_person_pin
@@ -2966,6 +2972,7 @@ id btn_add_product
 id btn_confirm
 id btn_create
 id btn_create_address
+id btn_delivered
 id btn_go_to_map
 id btn_login
 id btn_next
@@ -3132,6 +3139,7 @@ id imageview_image1
 id imageview_image2
 id imageview_image3
 id imageview_logout
+id imageview_phone
 id imageview_product
 id imageview_remove
 id imageview_rol
@@ -3597,6 +3605,7 @@ layout activity_client_address_list
 layout activity_client_address_map
 layout activity_client_home
 layout activity_client_orders_detail
+layout activity_client_orders_map
 layout activity_client_payment_form
 layout activity_client_product_list
 layout activity_client_products_detail

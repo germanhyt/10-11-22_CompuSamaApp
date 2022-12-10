@@ -1,4 +1,5 @@
 const Order = require('../models/order');
+const User = require('../models/user');
 const OrderHasProduct = require('../models/order_has_product');
 const timeRelative = require('../utils/time_relative');
 
@@ -22,7 +23,7 @@ module.exports = {
             console.log(`Error ${error}`);
             return res.status(501).json({
                 success: false,
-                message: 'Hubo un error creando las ordenes por estado',
+                message: 'Hubo un error al tratar de obtener las ordenes por estado',
                 error: error
             });
         }
@@ -97,7 +98,9 @@ module.exports = {
             return res.status(201).json({
                 success: true,
                 message: 'La orden se creo correctamente',
-                data :  data.id
+                data :  {
+                    'id': data.id
+                }
             });
 
         }
@@ -120,8 +123,7 @@ module.exports = {
 
             return res.status(201).json({
                 success: true,
-                message: 'La orden se actualizo correctamente',
-                data :  data.id
+                message: 'La orden se actualizo correctamente'
             });
 
         }
@@ -144,8 +146,7 @@ module.exports = {
 
             return res.status(201).json({
                 success: true,
-                message: 'La orden se actualizo correctamente',
-                data :  data.id
+                message: 'La orden se actualizo correctamente'
             });
 
         }
@@ -168,8 +169,7 @@ module.exports = {
 
             return res.status(201).json({
                 success: true,
-                message: 'La orden se actualizo correctamente',
-                data :  data.id
+                message: 'La orden se actualizo correctamente'
             });
 
         }
@@ -182,5 +182,27 @@ module.exports = {
             });
         }
     },
+    async updateLatLng(req, res, next) {
+        try {
+
+            let order = req.body;
+
+            await Order.updateLatLng(order);
+
+            return res.status(201).json({
+                success: true,
+                message: 'La orden se actualizo correctamente',
+            });
+
+        }
+        catch (error) {
+            console.log(`Error ${error}`);
+            return res.status(501).json({
+                success: false,
+                message: 'Hubo un error creando la orden',
+                error: error
+            });
+        }
+    }
 
 }
