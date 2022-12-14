@@ -2600,7 +2600,24 @@
             "outputFile": "com.optic.kotlinudemydelivery.app-merged_res-41:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Alex\\Desktop\\Desarrollo MOVIL\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,5,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "17,209,136",
+                        "endColumns": "58,86,69",
+                        "endOffsets": "71,291,201"
+                    },
+                    "to": {
+                        "startLines": "1769,1812,1813",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "110337,115466,115553",
+                        "endColumns": "58,86,69",
+                        "endOffsets": "110391,115548,115618"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\Desktop\\Desarrollo MOVIL\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,16,13,14,10,11,12,2,3,4,15,5,6,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -2705,6 +2722,25 @@
                         "startOffsets": "99506,99546,100686,100868,100923,102419,102473,102525,102574,102635",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "99541,99588,100724,100918,100965,102468,102520,102569,102630,102680"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\Desktop\\Desarrollo MOVIL\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "815"
+                    },
+                    "to": {
+                        "startLines": "5975",
+                        "startColumns": "4",
+                        "startOffsets": "407287",
+                        "endLines": "5987",
+                        "endColumns": "12",
+                        "endOffsets": "407867"
                     }
                 },
                 {
@@ -3057,25 +3093,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "815"
-                    },
-                    "to": {
-                        "startLines": "5975",
-                        "startColumns": "4",
-                        "startOffsets": "407287",
-                        "endLines": "5987",
-                        "endColumns": "12",
-                        "endOffsets": "407867"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\e5a7f5c955953cc9d13feeef1215b998\\transformed\\coordinatorlayout-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -3145,23 +3162,6 @@
                         "startOffsets": "102853",
                         "endColumns": "59",
                         "endOffsets": "102908"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,5,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "16,204,133",
-                        "endColumns": "58,86,69",
-                        "endOffsets": "70,286,198"
-                    },
-                    "to": {
-                        "startLines": "1769,1812,1813",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "110337,115466,115553",
-                        "endColumns": "58,86,69",
-                        "endOffsets": "110391,115548,115618"
                     }
                 }
             ]
@@ -5824,24 +5824,7 @@
             "outputFile": "com.optic.kotlinudemydelivery.app-merged_res-41:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,46",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,3933",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,4017"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alex\\Desktop\\D MOVILES\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Alex\\Desktop\\Desarrollo MOVIL\\CompuSamaApp\\FrontEnd\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -5857,6 +5840,23 @@
                         "endLines": "21",
                         "endColumns": "12",
                         "endOffsets": "1274"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alex\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,46",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3933",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,4017"
                     }
                 },
                 {

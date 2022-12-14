@@ -54,7 +54,7 @@
         android:theme="@style/Theme.KotlinUdemyDelivery"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.optic.kotlinudemydelivery.ClientOrdersMapActivity"
+            android:name="com.optic.kotlinudemydelivery.activities.client.orders.map.ClientOrdersMapActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

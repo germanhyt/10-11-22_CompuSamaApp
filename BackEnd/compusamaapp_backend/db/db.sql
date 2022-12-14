@@ -1,13 +1,4 @@
-/* DROP TABLE IF EXISTS roles CASCADE;
-CREATE TABLE roles(
-	id BIGSERIAL PRIMARY KEY,
-	name VARCHAR(100) NOT NULL UNIQUE,
-	image VARCHAR(255) NULL,
-	route VARCHAR(255) NULL,
-	created_at TIMESTAMP(0) NOT NULL,
-	updated_at TIMESTAMP(0) NOT NULL
-);
-
+/* 
 
 
 DROP TABLE IF EXISTS users CASCADE;
@@ -26,6 +17,19 @@ CREATE TABLE users(
 	updated_at TIMESTAMP(0) NOT NULL
 );
 
+DROP TABLE IF EXISTS roles CASCADE;
+CREATE TABLE roles(
+	id BIGSERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL UNIQUE,
+	image VARCHAR(255) NULL,
+	route VARCHAR(255) NULL,
+	created_at TIMESTAMP(0) NOT NULL,
+	updated_at TIMESTAMP(0) NOT NULL
+);
+
+
+
+
 DROP TABLE IF EXISTS user_has_roles CASCADE;
 CREATE TABLE user_has_roles(
 	id_user BIGSERIAL NOT NULL,
@@ -43,15 +47,14 @@ INSERT INTO roles(
 	route,
 	image,
 	created_at,
-	updated_ad
+	updated_at
 )
 VALUES(
-	'CLIENTE'
-	'client/home'
-	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png'
+	'CLIENTE',
+	'client/home',
+	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png',
+	'2022-11-04',
 	'2022-11-04'
-	'2022-11-04'
-
 );
 
 
@@ -60,13 +63,13 @@ INSERT INTO roles(
 	route,
 	image,
 	created_at,
-	updated_ad
+	updated_at
 )
 VALUES(
-	'RESTAURANTE'
-	'restaurant/home'
-	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png'
-	'2022-11-04'
+	'RESTAURANTE',
+	'restaurant/home',
+	'https://www.citypng.com/public/uploads/small/11640168385jtmh7kpmvna5ddyynoxsjy5leb1nmpvqooaavkrjmt9zs7vtvuqi4lcwofkzsaejalxn7ggpim4hkg0wbwtzsrp1ldijzbdbsj5z.png',
+	'2022-11-04',
 	'2022-11-04'
 
 );
@@ -76,13 +79,13 @@ INSERT INTO roles(
 	route,
 	image,
 	created_at,
-	updated_ad
+	updated_at
 )
 VALUES(
-	'REPARTIDOR'
-	'delivery/home'
-	'https://cdn-icons-png.flaticon.com/512/2301/2301898.png'
-	'2022-11-04'
+	'REPARTIDOR',
+	'delivery/home',
+	'https://cdn-icons-png.flaticon.com/512/2301/2301898.png',
+	'2022-11-04',
 	'2022-11-04'
 
 );
@@ -124,7 +127,6 @@ CREATE TABLE address(
 	created_at TIMESTAMP(0) NOT NULL,
 	updated_at TIMESTAMP(0) NOT NULL,
 	FOREIGN KEY(id_user) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE
-
 );
 
 DROP TABLE IF EXISTS orders CASCADE;

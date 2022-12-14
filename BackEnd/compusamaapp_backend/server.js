@@ -64,7 +64,7 @@ address(app);
 orders(app);
 products(app, upload);
 
-server.listen(3000,'192.168.18.2' || 'localhost', function() {// la ip depende de la pc
+server.listen(3000,'172.20.25.112' || 'localhost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
 });
 

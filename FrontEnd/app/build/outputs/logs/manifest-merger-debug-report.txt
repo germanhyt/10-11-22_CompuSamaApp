@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\Alex\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Alex\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -69,65 +69,65 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alex\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\eb096476208bed94cd51cc904aa804e3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\87b6f924c6c766718f595823a69da52a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Alex\.gradle\caches\transforms-3\039b3fc4e88956563f543ae1529d6512\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
 	package
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:4:5-44
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:1-112:12
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:8:5-65
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:8:5-65
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:8:22-62
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:8:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:5-69
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:5-69
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:22-66
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:12:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:13:5-15:40
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:13:5-15:40
 	tools:ignore
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-37
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:15:9-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:14:9-65
 application
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:17:5-110:19
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:17:5-110:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Alex\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -167,179 +167,179 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Al
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:20:9-41
 	android:roundIcon
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:21:9-54
 	android:icon
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:9-57
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:23:9-57
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:9-44
-activity#com.optic.kotlinudemydelivery.ClientOrdersMapActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:9-31:20
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:24:9-44
+activity#com.optic.kotlinudemydelivery.activities.client.orders.map.ClientOrdersMapActivity
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:26:13-52
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:26:13-81
 meta-data#android.app.lib_name
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-30:36
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:28:13-30:36
 	android:value
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-33
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:30:17-33
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:17-52
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:29:17-52
 activity#com.optic.kotlinudemydelivery.activities.delivery.orders.map.DeliveryOrdersMapActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:13-85
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:33:13-85
 activity#com.optic.kotlinudemydelivery.activities.delivery.orders.detail.DeliveryOrdersDetailActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:39:9-42:91
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:39:9-42:91
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:13-88
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:42:13-88
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-91
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:40:13-91
 activity#com.optic.kotlinudemydelivery.activities.restaurant.orders.detail.RestaurantOrdersDetailActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:43:9-46:95
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:43:9-46:95
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-92
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:46:13-92
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:45:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:13-95
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:44:13-95
 activity#com.optic.kotlinudemydelivery.activities.client.orders.detail.ClientOrdersDetailActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:47:9-50:87
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:47:9-50:87
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:50:13-84
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:50:13-84
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:49:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:48:13-87
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:48:13-87
 activity#com.optic.kotlinudemydelivery.activities.client.payments.form.ClientPaymentFormActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:51:9-53:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:51:9-53:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:13-86
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:52:13-86
 activity#com.optic.kotlinudemydelivery.activities.client.address.map.ClientAddressMapActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:9-56:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:54:9-56:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:56:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:56:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:55:13-83
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:55:13-83
 activity#com.optic.kotlinudemydelivery.activities.client.address.create.ClientAddressCreateActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:57:9-60:102
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:57:9-60:102
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-99
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:60:13-99
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:59:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:58:13-89
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:58:13-89
 activity#com.optic.kotlinudemydelivery.activities.client.address.list.ClientAddressListActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:9-64:102
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:61:9-64:102
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:13-99
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:64:13-99
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-85
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:62:13-85
 activity#com.optic.kotlinudemydelivery.activities.client.shopping_bag.ClientShoppingBagActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:9-68:87
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:65:9-68:87
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-84
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:68:13-84
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:67:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:13-85
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:66:13-85
 activity#com.optic.kotlinudemydelivery.activities.client.products.detail.ClientProductsDetailActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:9-71:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:69:9-71:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:71:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:13-91
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:70:13-91
 activity#com.optic.kotlinudemydelivery.activities.client.products.detail.list.ClientProductListActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:9-74:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:72:9-74:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:74:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:13-93
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:73:13-93
 activity#com.optic.kotlinudemydelivery.activities.client.update.ClientUpdateActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:9-78:87
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:75:9-78:87
 	android:parentActivityName
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:78:13-84
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:78:13-84
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:77:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-74
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:76:13-74
 activity#com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:9-81:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:79:9-81:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:80:13-74
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:80:13-74
 activity#com.optic.kotlinudemydelivery.activities.restaurant.home.RestaurantHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:82:9-84:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:82:9-84:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:84:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:83:13-78
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:83:13-78
 activity#com.optic.kotlinudemydelivery.activities.client.home.ClientHomeActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:9-87:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:85:9-87:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:87:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:86:13-70
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:86:13-70
 activity#com.optic.kotlinudemydelivery.activities.SelectRolesActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:88:9-90:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:88:9-90:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:90:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:90:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:89:13-59
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:89:13-59
 activity#com.optic.kotlinudemydelivery.activities.RegisterActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:91:9-93:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:91:9-93:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:93:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:93:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:92:13-56
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:92:13-56
 activity#com.optic.kotlinudemydelivery.activities.SaveImageActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:94:9-96:39
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:94:9-96:39
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:96:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:96:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:95:13-57
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:95:13-57
 activity#com.optic.kotlinudemydelivery.activities.MainActivity
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:97:9-105:20
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:97:9-105:20
 	android:exported
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:99:13-36
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:99:13-36
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:98:13-52
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:98:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:100:13-104:29
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:100:13-104:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:101:17-69
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:101:17-69
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:101:25-66
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:101:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:103:17-77
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:103:17-77
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:103:27-74
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:103:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:107:9-109:71
+ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:107:9-109:71
 	android:value
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:109:13-68
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:109:13-68
 	android:name
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:108:13-58
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml:108:13-58
 uses-sdk
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\Alex\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\Alex\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\AndroidManifest.xml:20:5-22:41
@@ -470,16 +470,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Alex\.gradle\caches\transforms
 MERGED from [androidx.print:print:1.0.0] C:\Users\Alex\.gradle\caches\transforms-3\87b6f924c6c766718f595823a69da52a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Alex\.gradle\caches\transforms-3\039b3fc4e88956563f543ae1529d6512\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\Alex\.gradle\caches\transforms-3\039b3fc4e88956563f543ae1529d6512\transformed\jetified-rxandroid-3.0.0\AndroidManifest.xml:18:5-43
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Alex\Desktop\D MOVILES\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\AndroidManifest.xml
 queries
 ADDED from [com.github.dhaval2404:imagepicker:2.1] C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\AndroidManifest.xml:9:5-19:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
