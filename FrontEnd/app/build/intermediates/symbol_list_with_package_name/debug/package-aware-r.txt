@@ -2767,6 +2767,7 @@ drawable ic_pizza
 drawable ic_power
 drawable ic_remove
 drawable loading
+drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2861,6 +2862,7 @@ drawable ucrop_vector_loader
 drawable ucrop_vector_loader_animated
 drawable ucrop_wrapper_controls_shape
 drawable user_icon
+font baloo_regular
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
@@ -3138,6 +3140,7 @@ id imageview_go_to_register
 id imageview_image1
 id imageview_image2
 id imageview_image3
+id imageview_logo
 id imageview_logout
 id imageview_phone
 id imageview_product

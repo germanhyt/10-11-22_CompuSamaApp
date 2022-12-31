@@ -1,44 +1,44 @@
-com.optic.kotlinudemydelivery.app-jetified-imagepicker-2.1-0 C:\Users\Alex\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\res
-com.optic.kotlinudemydelivery.app-jetified-startup-runtime-1.1.1-1 C:\Users\Alex\.gradle\caches\transforms-3\14779f0273fd86f43e1f02af1bcd1f85\transformed\jetified-startup-runtime-1.1.1\res
-com.optic.kotlinudemydelivery.app-appcompat-1.5.1-2 C:\Users\Alex\.gradle\caches\transforms-3\35247393b79a5fe3c4f500e2adf3d76f\transformed\appcompat-1.5.1\res
-com.optic.kotlinudemydelivery.app-constraintlayout-2.1.4-3 C:\Users\Alex\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\res
-com.optic.kotlinudemydelivery.app-cardview-1.0.0-4 C:\Users\Alex\.gradle\caches\transforms-3\3d0b12a6a2875ebc8055ad98f7863014\transformed\cardview-1.0.0\res
-com.optic.kotlinudemydelivery.app-jetified-viewpager2-1.0.0-5 C:\Users\Alex\.gradle\caches\transforms-3\40b431c5aef9fe8d79bbd634c77ae9f1\transformed\jetified-viewpager2-1.0.0\res
-com.optic.kotlinudemydelivery.app-jetified-progress-dialog-1.0.0-6 C:\Users\Alex\.gradle\caches\transforms-3\41f9040c5939e82a1d31a8c5308d4e88\transformed\jetified-progress-dialog-1.0.0\res
-com.optic.kotlinudemydelivery.app-drawerlayout-1.1.1-7 C:\Users\Alex\.gradle\caches\transforms-3\47ac39755f246ef2ff54ad5b7942d42f\transformed\drawerlayout-1.1.1\res
-com.optic.kotlinudemydelivery.app-jetified-appcompat-resources-1.5.1-8 C:\Users\Alex\.gradle\caches\transforms-3\47ec644be228689653253ae24fb9c596\transformed\jetified-appcompat-resources-1.5.1\res
-com.optic.kotlinudemydelivery.app-jetified-core-ktx-1.9.0-9 C:\Users\Alex\.gradle\caches\transforms-3\4c666ee4e9502ea3205dee12a9a32221\transformed\jetified-core-ktx-1.9.0\res
-com.optic.kotlinudemydelivery.app-jetified-play-services-maps-18.1.0-10 C:\Users\Alex\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\res
-com.optic.kotlinudemydelivery.app-material-1.7.0-11 C:\Users\Alex\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\res
-com.optic.kotlinudemydelivery.app-jetified-annotation-experimental-1.3.0-12 C:\Users\Alex\.gradle\caches\transforms-3\56c8e8a27068d68a4c0fd4ce9c0c4322\transformed\jetified-annotation-experimental-1.3.0\res
-com.optic.kotlinudemydelivery.app-jetified-glide-4.14.2-13 C:\Users\Alex\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\res
-com.optic.kotlinudemydelivery.app-jetified-play-services-basement-18.1.0-14 C:\Users\Alex\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\res
-com.optic.kotlinudemydelivery.app-lifecycle-livedata-core-2.5.1-15 C:\Users\Alex\.gradle\caches\transforms-3\9b72d3a0628617d3f17d9cb77d3f51cf\transformed\lifecycle-livedata-core-2.5.1\res
-com.optic.kotlinudemydelivery.app-jetified-savedstate-1.2.0-16 C:\Users\Alex\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\res
-com.optic.kotlinudemydelivery.app-transition-1.2.0-17 C:\Users\Alex\.gradle\caches\transforms-3\9e273d98ab3096fcf193178fecca25fc\transformed\transition-1.2.0\res
-com.optic.kotlinudemydelivery.app-jetified-emoji2-1.2.0-18 C:\Users\Alex\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\res
-com.optic.kotlinudemydelivery.app-fragment-1.3.6-19 C:\Users\Alex\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\res
-com.optic.kotlinudemydelivery.app-jetified-drawroute-1.5-20 C:\Users\Alex\.gradle\caches\transforms-3\b91fb74400387ca0aabcfee3c55860ac\transformed\jetified-drawroute-1.5\res
-com.optic.kotlinudemydelivery.app-media-1.0.0-21 C:\Users\Alex\.gradle\caches\transforms-3\ba898206e86627e424a2772d48b5d463\transformed\media-1.0.0\res
-com.optic.kotlinudemydelivery.app-jetified-lifecycle-process-2.4.1-22 C:\Users\Alex\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\res
-com.optic.kotlinudemydelivery.app-jetified-play-services-base-18.1.0-23 C:\Users\Alex\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\res
-com.optic.kotlinudemydelivery.app-recyclerview-1.1.0-24 C:\Users\Alex\.gradle\caches\transforms-3\bebc84e5611febee61e63b319d718ccf\transformed\recyclerview-1.1.0\res
-com.optic.kotlinudemydelivery.app-jetified-ImageSlideshow-0.1.0-25 C:\Users\Alex\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\res
-com.optic.kotlinudemydelivery.app-jetified-android-maps-utils-2.2.3-26 C:\Users\Alex\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\res
-com.optic.kotlinudemydelivery.app-jetified-ucrop-2.2.6-27 C:\Users\Alex\.gradle\caches\transforms-3\ccd18369c220fe591d37e95b90089951\transformed\jetified-ucrop-2.2.6\res
-com.optic.kotlinudemydelivery.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-28 C:\Users\Alex\.gradle\caches\transforms-3\d0fc6f2e3351db4aa3a7b376dd964b4b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
-com.optic.kotlinudemydelivery.app-coordinatorlayout-1.1.0-29 C:\Users\Alex\.gradle\caches\transforms-3\e5a7f5c955953cc9d13feeef1215b998\transformed\coordinatorlayout-1.1.0\res
-com.optic.kotlinudemydelivery.app-lifecycle-runtime-2.5.1-30 C:\Users\Alex\.gradle\caches\transforms-3\ecb295b800ded09051f724a4ba193524\transformed\lifecycle-runtime-2.5.1\res
-com.optic.kotlinudemydelivery.app-jetified-emoji2-views-helper-1.2.0-31 C:\Users\Alex\.gradle\caches\transforms-3\ef66750d44341521985085f234b11a88\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.optic.kotlinudemydelivery.app-lifecycle-viewmodel-2.5.1-32 C:\Users\Alex\.gradle\caches\transforms-3\f2489d9065f4dca5ca4b308de42fbf04\transformed\lifecycle-viewmodel-2.5.1\res
-com.optic.kotlinudemydelivery.app-core-1.9.0-33 C:\Users\Alex\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\res
-com.optic.kotlinudemydelivery.app-jetified-activity-1.5.1-34 C:\Users\Alex\.gradle\caches\transforms-3\f3ee13db5cf5e80542e82c0f34f6d420\transformed\jetified-activity-1.5.1\res
-com.optic.kotlinudemydelivery.app-jetified-circleimageview-3.1.0-35 C:\Users\Alex\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\res
-com.optic.kotlinudemydelivery.app-pngs-36 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\generated\res\pngs\debug
-com.optic.kotlinudemydelivery.app-resValues-37 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\generated\res\resValues\debug
-com.optic.kotlinudemydelivery.app-rs-38 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\generated\res\rs\debug
-com.optic.kotlinudemydelivery.app-packageDebugResources-39 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.optic.kotlinudemydelivery.app-packageDebugResources-40 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.optic.kotlinudemydelivery.app-merged_res-41 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\build\intermediates\merged_res\debug
-com.optic.kotlinudemydelivery.app-debug-42 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\debug\res
-com.optic.kotlinudemydelivery.app-main-43 C:\Users\Alex\Desktop\Desarrollo MOVIL\CompuSamaApp\FrontEnd\app\src\main\res
+com.optic.kotlinudemydelivery.app-jetified-imagepicker-2.1-0 C:\Users\ivanh\.gradle\caches\transforms-3\08d4083f488a32d7c06159227ee87c47\transformed\jetified-imagepicker-2.1\res
+com.optic.kotlinudemydelivery.app-jetified-startup-runtime-1.1.1-1 C:\Users\ivanh\.gradle\caches\transforms-3\14779f0273fd86f43e1f02af1bcd1f85\transformed\jetified-startup-runtime-1.1.1\res
+com.optic.kotlinudemydelivery.app-appcompat-1.5.1-2 C:\Users\ivanh\.gradle\caches\transforms-3\35247393b79a5fe3c4f500e2adf3d76f\transformed\appcompat-1.5.1\res
+com.optic.kotlinudemydelivery.app-constraintlayout-2.1.4-3 C:\Users\ivanh\.gradle\caches\transforms-3\38043517c514ada7a9c17da61d45b16b\transformed\constraintlayout-2.1.4\res
+com.optic.kotlinudemydelivery.app-cardview-1.0.0-4 C:\Users\ivanh\.gradle\caches\transforms-3\3d0b12a6a2875ebc8055ad98f7863014\transformed\cardview-1.0.0\res
+com.optic.kotlinudemydelivery.app-jetified-viewpager2-1.0.0-5 C:\Users\ivanh\.gradle\caches\transforms-3\40b431c5aef9fe8d79bbd634c77ae9f1\transformed\jetified-viewpager2-1.0.0\res
+com.optic.kotlinudemydelivery.app-jetified-progress-dialog-1.0.0-6 C:\Users\ivanh\.gradle\caches\transforms-3\41f9040c5939e82a1d31a8c5308d4e88\transformed\jetified-progress-dialog-1.0.0\res
+com.optic.kotlinudemydelivery.app-drawerlayout-1.1.1-7 C:\Users\ivanh\.gradle\caches\transforms-3\47ac39755f246ef2ff54ad5b7942d42f\transformed\drawerlayout-1.1.1\res
+com.optic.kotlinudemydelivery.app-jetified-appcompat-resources-1.5.1-8 C:\Users\ivanh\.gradle\caches\transforms-3\47ec644be228689653253ae24fb9c596\transformed\jetified-appcompat-resources-1.5.1\res
+com.optic.kotlinudemydelivery.app-jetified-core-ktx-1.9.0-9 C:\Users\ivanh\.gradle\caches\transforms-3\4c666ee4e9502ea3205dee12a9a32221\transformed\jetified-core-ktx-1.9.0\res
+com.optic.kotlinudemydelivery.app-jetified-play-services-maps-18.1.0-10 C:\Users\ivanh\.gradle\caches\transforms-3\53bc6091d665ad5260cdfc2c2bd31044\transformed\jetified-play-services-maps-18.1.0\res
+com.optic.kotlinudemydelivery.app-material-1.7.0-11 C:\Users\ivanh\.gradle\caches\transforms-3\53edefe15d403f8467620aa121e38059\transformed\material-1.7.0\res
+com.optic.kotlinudemydelivery.app-jetified-annotation-experimental-1.3.0-12 C:\Users\ivanh\.gradle\caches\transforms-3\56c8e8a27068d68a4c0fd4ce9c0c4322\transformed\jetified-annotation-experimental-1.3.0\res
+com.optic.kotlinudemydelivery.app-jetified-glide-4.14.2-13 C:\Users\ivanh\.gradle\caches\transforms-3\7ee713f201d7bb17f0b6b6a4d3cb7272\transformed\jetified-glide-4.14.2\res
+com.optic.kotlinudemydelivery.app-jetified-play-services-basement-18.1.0-14 C:\Users\ivanh\.gradle\caches\transforms-3\9456f475ea18ece41b0e1f623957d888\transformed\jetified-play-services-basement-18.1.0\res
+com.optic.kotlinudemydelivery.app-lifecycle-livedata-core-2.5.1-15 C:\Users\ivanh\.gradle\caches\transforms-3\9b72d3a0628617d3f17d9cb77d3f51cf\transformed\lifecycle-livedata-core-2.5.1\res
+com.optic.kotlinudemydelivery.app-jetified-savedstate-1.2.0-16 C:\Users\ivanh\.gradle\caches\transforms-3\9d3ae9fbc8b4c31d332e4ee556f746a7\transformed\jetified-savedstate-1.2.0\res
+com.optic.kotlinudemydelivery.app-transition-1.2.0-17 C:\Users\ivanh\.gradle\caches\transforms-3\9e273d98ab3096fcf193178fecca25fc\transformed\transition-1.2.0\res
+com.optic.kotlinudemydelivery.app-jetified-emoji2-1.2.0-18 C:\Users\ivanh\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\res
+com.optic.kotlinudemydelivery.app-fragment-1.3.6-19 C:\Users\ivanh\.gradle\caches\transforms-3\aabd96d17d3f8389713fa62fe78ebf8d\transformed\fragment-1.3.6\res
+com.optic.kotlinudemydelivery.app-jetified-drawroute-1.5-20 C:\Users\ivanh\.gradle\caches\transforms-3\b91fb74400387ca0aabcfee3c55860ac\transformed\jetified-drawroute-1.5\res
+com.optic.kotlinudemydelivery.app-media-1.0.0-21 C:\Users\ivanh\.gradle\caches\transforms-3\ba898206e86627e424a2772d48b5d463\transformed\media-1.0.0\res
+com.optic.kotlinudemydelivery.app-jetified-lifecycle-process-2.4.1-22 C:\Users\ivanh\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\res
+com.optic.kotlinudemydelivery.app-jetified-play-services-base-18.1.0-23 C:\Users\ivanh\.gradle\caches\transforms-3\bcc3139f25dab074e071f3795b624b0b\transformed\jetified-play-services-base-18.1.0\res
+com.optic.kotlinudemydelivery.app-recyclerview-1.1.0-24 C:\Users\ivanh\.gradle\caches\transforms-3\bebc84e5611febee61e63b319d718ccf\transformed\recyclerview-1.1.0\res
+com.optic.kotlinudemydelivery.app-jetified-ImageSlideshow-0.1.0-25 C:\Users\ivanh\.gradle\caches\transforms-3\c66f82123bb4ca4272323df91ddbd648\transformed\jetified-ImageSlideshow-0.1.0\res
+com.optic.kotlinudemydelivery.app-jetified-android-maps-utils-2.2.3-26 C:\Users\ivanh\.gradle\caches\transforms-3\cc59d87f14bb45d761aed527c69ff683\transformed\jetified-android-maps-utils-2.2.3\res
+com.optic.kotlinudemydelivery.app-jetified-ucrop-2.2.6-27 C:\Users\ivanh\.gradle\caches\transforms-3\ccd18369c220fe591d37e95b90089951\transformed\jetified-ucrop-2.2.6\res
+com.optic.kotlinudemydelivery.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-28 C:\Users\ivanh\.gradle\caches\transforms-3\d0fc6f2e3351db4aa3a7b376dd964b4b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.optic.kotlinudemydelivery.app-coordinatorlayout-1.1.0-29 C:\Users\ivanh\.gradle\caches\transforms-3\e5a7f5c955953cc9d13feeef1215b998\transformed\coordinatorlayout-1.1.0\res
+com.optic.kotlinudemydelivery.app-lifecycle-runtime-2.5.1-30 C:\Users\ivanh\.gradle\caches\transforms-3\ecb295b800ded09051f724a4ba193524\transformed\lifecycle-runtime-2.5.1\res
+com.optic.kotlinudemydelivery.app-jetified-emoji2-views-helper-1.2.0-31 C:\Users\ivanh\.gradle\caches\transforms-3\ef66750d44341521985085f234b11a88\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.optic.kotlinudemydelivery.app-lifecycle-viewmodel-2.5.1-32 C:\Users\ivanh\.gradle\caches\transforms-3\f2489d9065f4dca5ca4b308de42fbf04\transformed\lifecycle-viewmodel-2.5.1\res
+com.optic.kotlinudemydelivery.app-core-1.9.0-33 C:\Users\ivanh\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\res
+com.optic.kotlinudemydelivery.app-jetified-activity-1.5.1-34 C:\Users\ivanh\.gradle\caches\transforms-3\f3ee13db5cf5e80542e82c0f34f6d420\transformed\jetified-activity-1.5.1\res
+com.optic.kotlinudemydelivery.app-jetified-circleimageview-3.1.0-35 C:\Users\ivanh\.gradle\caches\transforms-3\f582772027178d8099da7a479bf13421\transformed\jetified-circleimageview-3.1.0\res
+com.optic.kotlinudemydelivery.app-pngs-36 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\generated\res\pngs\debug
+com.optic.kotlinudemydelivery.app-resValues-37 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\generated\res\resValues\debug
+com.optic.kotlinudemydelivery.app-rs-38 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\generated\res\rs\debug
+com.optic.kotlinudemydelivery.app-packageDebugResources-39 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.optic.kotlinudemydelivery.app-packageDebugResources-40 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.optic.kotlinudemydelivery.app-merged_res-41 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\build\intermediates\merged_res\debug
+com.optic.kotlinudemydelivery.app-debug-42 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\src\debug\res
+com.optic.kotlinudemydelivery.app-main-43 C:\proyecto_moviles\CompuSamaApp\FrontEnd\app\src\main\res

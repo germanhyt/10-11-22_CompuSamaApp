@@ -43,9 +43,11 @@ drawable ic_phone_gray
 drawable ic_pizza
 drawable ic_power
 drawable ic_remove
+drawable logo
 drawable my_location
 drawable rounded_button
 drawable user_icon
+font baloo_regular
 font catalish_huntera
 font indigo_daisy
 font roboto_regular
@@ -88,6 +90,7 @@ id imageview_go_to_register
 id imageview_image1
 id imageview_image2
 id imageview_image3
+id imageview_logo
 id imageview_logout
 id imageview_phone
 id imageview_product

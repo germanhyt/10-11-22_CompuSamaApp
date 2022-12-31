@@ -11,7 +11,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="364dp">
+        tools:layout_editor_absoluteY="364dp"
+        android:background="@color/black"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -20,7 +22,9 @@
             android:layout_marginTop="60dp"
             android:fontFamily="@font/indigo_daisy"
             android:text="Registro"
-            android:textSize="50dp" />
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,7 +32,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/roboto_regular"
-            android:text="Completa estos datos" />
+            android:text="Completa estos datos"
+            android:textColor="@color/white"
+            />
 
         <EditText
             android:id="@+id/edittext_name"
@@ -39,8 +45,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Nombre"
+            android:textColorHint="#AFAFAF"
             android:inputType="text"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/edittext_lastname"
@@ -51,8 +60,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Apellido"
+            android:textColorHint="#AFAFAF"
             android:inputType="text"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/edittext_email"
@@ -63,8 +75,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Email"
+            android:textColorHint="#AFAFAF"
             android:inputType="textEmailAddress"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/edittext_phone"
@@ -75,8 +90,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Telefono"
+            android:textColorHint="#AFAFAF"
             android:inputType="phone"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/edittext_password"
@@ -87,8 +105,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Contraseña"
+            android:textColorHint="#AFAFAF"
             android:inputType="textPassword"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
         <EditText
             android:id="@+id/edittext_confirm_password"
@@ -99,8 +120,11 @@
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Confirmar Contraseña"
+            android:textColorHint="#AFAFAF"
             android:inputType="textPassword"
-            android:padding="15dp" />
+            android:padding="15dp"
+            android:textColor="@color/black"
+            />
 
     </LinearLayout>
 
@@ -119,7 +143,8 @@
             android:text="Registrarse"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/rounded_button"/>
+            android:backgroundTint="#0120D0"
+            />
 
         <ImageView
             android:id="@+id/imageview_go_to_login"
@@ -133,6 +158,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Volver al login"
+            android:textColor="@color/white"
             android:layout_marginBottom="15dp"/>
 
 

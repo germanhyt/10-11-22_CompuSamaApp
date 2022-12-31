@@ -2766,6 +2766,7 @@ int drawable ic_pizza 0x7f0700c1
 int drawable ic_power 0x7f0700c2
 int drawable ic_remove 0x7f0700c3
 int drawable loading 0x7f0700c4
+int drawable logo 0x7f070123
 int drawable m3_appbar_background 0x7f0700c5
 int drawable m3_popupmenu_background_overlay 0x7f0700c6
 int drawable m3_radiobutton_ripple 0x7f0700c7
@@ -2860,6 +2861,7 @@ int drawable ucrop_vector_loader 0x7f07011f
 int drawable ucrop_vector_loader_animated 0x7f070120
 int drawable ucrop_wrapper_controls_shape 0x7f070121
 int drawable user_icon 0x7f070122
+int font baloo_regular 0x7f080003
 int font catalish_huntera 0x7f080000
 int font indigo_daisy 0x7f080001
 int font roboto_regular 0x7f080002
@@ -3137,6 +3139,7 @@ int id imageview_go_to_register 0x7f09010e
 int id imageview_image1 0x7f09010f
 int id imageview_image2 0x7f090110
 int id imageview_image3 0x7f090111
+int id imageview_logo 0x7f090263
 int id imageview_logout 0x7f090112
 int id imageview_phone 0x7f090113
 int id imageview_product 0x7f090114
