@@ -2,6 +2,19 @@ const db = require('../config/config');
 
 const Product = {};
 
+
+Product.getAll = () => {
+    const sql = `
+    SELECT
+        *
+    FROM
+        products
+    `;
+
+    return db.manyOrNone(sql);
+}
+
+
 Product.findByCategory = (id_category) => {
     const sql = `
         SELECT

@@ -1,0 +1,4 @@
+node _modules
+.vscode
+.git
+.cache
