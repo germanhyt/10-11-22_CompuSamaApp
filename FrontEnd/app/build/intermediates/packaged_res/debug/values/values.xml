@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#16A0EA</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="green">#06CF67</color>
+    <color name="green_accent">#069C4E</color>
+    <color name="orange">#F88E1D</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#EA1616</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteLight">#EAEAEA</color>
+    <string name="app_name">Kotlin Udemy Delivery</string>
+    <string name="google_map_api_key">AIzaSyDNKtFtUukrJskIlYi7MiU0d44vnFgxhIw</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Theme.KotlinUdemyDelivery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/gray_light</item>
+        <item name="colorSecondaryVariant">@color/gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

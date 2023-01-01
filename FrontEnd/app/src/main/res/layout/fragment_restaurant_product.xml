@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.restaurant.RestaurantProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nombre del producto"
+            android:background="@drawable/edittext_custom"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edittext_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Descripcion del producto"
+            android:background="@drawable/edittext_custom"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/edittext_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Precio del producto"
+            android:background="@drawable/edittext_custom"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:inputType="phone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageview_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_image"
+                android:background="@color/gray_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageview_image2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_image"
+                android:background="@color/gray_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/imageview_image3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_image"
+                android:background="@color/gray_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Crear producto"
+        android:background="@drawable/rounded_button"
+        app:backgroundTint="@color/black"
+        android:textColor="@color/green"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="70dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

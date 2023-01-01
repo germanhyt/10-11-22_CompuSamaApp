@@ -7,7 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="orange">#FF5722</color>
     <color name="green">#4CAF50</color>
     <color name="gray">#F5F5F5</color>
+=======
+    <color name="whiteLight">#EAEAEA</color>
+    <color name="green">#06CF67</color>
+    <color name="green_accent">#069C4E</color>
+    <color name="orange">#F88E1D</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="red">#EA1616</color>
+    <color name="blue">#16A0EA</color>
+>>>>>>> german
 </resources>
