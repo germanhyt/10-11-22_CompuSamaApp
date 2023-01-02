@@ -64,7 +64,11 @@ address(app);
 orders(app);
 products(app, upload);
 
-server.listen(3000, function() {// la ip depende de la pc
+// server.listen(3000, function() {// la ip depende de la pc
+//     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
+// });
+
+server.listen(3000,'192.168.1.10'||'locahost', function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
 });
 

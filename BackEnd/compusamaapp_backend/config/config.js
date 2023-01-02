@@ -19,6 +19,15 @@ const databaseConfig = {
     'ssl':true
 }
 
+
+// const databaseConfig = {
+//     'host' : '127.0.0.1',
+//     'port' : 5432,
+//     'database' : 'postgres',
+//     'user': 'postgres',
+//     'password': 'admin'
+// }
+
 const db = pgp(databaseConfig);
 
 module.exports = db;
