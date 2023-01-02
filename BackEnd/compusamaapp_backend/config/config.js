@@ -11,11 +11,11 @@ types.setTypeParser(1114,function(stringValue){
 });
 
 const databaseConfig = {
-    'host' : 'db-service-compusama-prod-001.postgres.database.azure.com',
+    'host' : '127.0.0.1',
     'port' : 5432,
-    'database' : 'db-service-compusama-prod-001',
-    'user': 'compusama',
-    'password': 'Vufu0451'
+    'database' : 'postgres',
+    'user': 'postgres',
+    'password': 'admin'
 }
 
 const db = pgp(databaseConfig);
