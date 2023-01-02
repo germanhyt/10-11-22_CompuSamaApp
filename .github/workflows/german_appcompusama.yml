@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: https://acrcompusama002.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_e81c118acde44839a344c373531ea368 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_4041595c465e453aaf026fefbd81132d }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_f48103171d5b44b2af343b2bc09bd4a2 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_f7eea81ba550439e8e55be5262b75b66 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e81c118acde44839a344c373531ea368 }}/nodejs:${{ github.sha }}
+        tags: acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_f48103171d5b44b2af343b2bc09bd4a2 }}/nodejs:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'appcompusama'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ba57ac69deeb44caa8d762feab457250 }}
-        images: 'acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e81c118acde44839a344c373531ea368 }}/nodejs:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0880af7b5e4540688ff31d21f8e3b79a }}
+        images: 'acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_f48103171d5b44b2af343b2bc09bd4a2 }}/nodejs:${{ github.sha }}'
