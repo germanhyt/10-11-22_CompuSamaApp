@@ -64,13 +64,12 @@ address(app);
 orders(app);
 products(app, upload);
 
-server.listen(3000,'192.168.1.10' || 'localhost', function() {// la ip depende de la pc
+server.listen(3000, function() {// la ip depende de la pc
     console.log('Aplicacion NodeJs ' + process.pid + ' Iniciada...')
 });
 
 app.get('/', (req,res) => {
     res.send('Ruta raiz backend');
-
 });
 
 app.get('/test', (req,res) => {

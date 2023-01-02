@@ -1,7 +1,8 @@
 FROM  node:alpine3.14
 
-WORKDIR /opt/web-app/server
-COPY server.js *.json .js ./*.js ./ 
+WORKDIR /opt/web-app/app
+COPY server.js *.json ./ 
 RUN npm i
-EXPOSE 8080
-CMD ["compusamatest","server.js"]
+COPY . .
+EXPOSE 3000
+CMD ["nodejs","server.js"]
