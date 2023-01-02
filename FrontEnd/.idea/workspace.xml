@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdfe37bc-e130-4df9-b888-3d9c5ca60596" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

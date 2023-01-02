@@ -7,7 +7,7 @@ module.exports  = (app, upload) => {
     
     app.get('/api/products/findByCategory/:id_category', passport.authenticate('jwt', {session: false}),ProductsController.findByCategory);
 
-    app.post('/api/products/create', passport.authenticate('jwt', {session: false}), upload.array('image', 3),ProductsController.create);
-
+    app.post('/api/products/create', passport.authenticate('jwt', {session: true}), upload.array('image', 3),ProductsController.create);
+    
 }
 

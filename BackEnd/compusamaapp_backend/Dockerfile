@@ -5,4 +5,4 @@ COPY server.js *.json ./
 RUN npm i
 COPY . .
 EXPOSE 3000
-CMD ["node-app","server.js"]
+CMD ["node","server.js"]
