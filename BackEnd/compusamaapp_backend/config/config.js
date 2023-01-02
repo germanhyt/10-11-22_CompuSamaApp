@@ -1,7 +1,7 @@
 const promise = require('bluebird');
 const options = {
     promiseLib: promise,
-    query: (e) => {}
+    // query: (e) => {}
 }
 
 const pgp = require('pg-promise')(options);
@@ -11,13 +11,16 @@ types.setTypeParser(1114,function(stringValue){
 });
 
 const databaseConfig = {
-    'host' : '127.0.0.1',
+    'host' : 'db-service-compusama-prod-001.postgres.database.azure.com',
     'port' : 5432,
-    'database' : 'postgres',
-    'user': 'postgres',
-    'password': 'admin'
+    'database' : 'db-service-compusama-prod-001',
+    'user': 'compusama',
+    'password': 'Vufu0451',
+    'ssl':true
 }
 
 const db = pgp(databaseConfig);
 
 module.exports = db;
+
+

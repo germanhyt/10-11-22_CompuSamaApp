@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdfe37bc-e130-4df9-b888-3d9c5ca60596" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../BackEnd/compusamaapp_backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ivanh\.android\avd\Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[19cd334c]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />

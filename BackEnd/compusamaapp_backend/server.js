@@ -70,12 +70,18 @@ server.listen(3000, function() {// la ip depende de la pc
 
 app.get('/', (req,res) => {
     res.send('Ruta raiz backend');
+
 });
 
 app.get('/test', (req,res) => {
     res.send('Esta es la ruta TEST');
 
 });
+
+app.get('/api/realizarpedido/v1/usuario/crear', (req,res) => {
+    res.send('Esta es la ruta TEST');
+});
+
 
 // ERROR HANDLER
 app.use((err, req, res, next) => {
