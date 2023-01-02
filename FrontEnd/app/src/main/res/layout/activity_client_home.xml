@@ -17,9 +17,9 @@
             android:layout_height="wrap_content"
             app:menu="@menu/bottom_navigation_menu_client"
             android:layout_gravity="bottom"
-            android:background="@color/green"
-            app:itemIconTint="@color/black"
-            app:itemTextColor="@color/black"/>
+            android:background="@color/blue_compusama"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"/>
         
 
     </FrameLayout>

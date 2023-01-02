@@ -15,4 +15,7 @@
     <color name="gray_light">#F5F5F5</color>
     <color name="red">#EA1616</color>
     <color name="blue">#16A0EA</color>
+    <color name="blue_compusama">#0120D0</color>
+    <color name="oscure_compusama">#1E1E1E</color>
+    <color name="boxblack_compusama">#232327</color>
 </resources>

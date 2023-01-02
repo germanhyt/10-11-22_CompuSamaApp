@@ -19,19 +19,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="60dp"
-            android:fontFamily="@font/indigo_daisy"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/baloo_regular"
             android:text="Registro"
-            android:textSize="50dp"
+            android:textSize="40dp"
             android:textColor="@color/white"
             />
-
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleimage_user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person"
+            android:layout_marginTop="2dp"
+            app:civ_border_color="@color/gray"
+            app:civ_border_width="5dp"
+            app:civ_circle_background_color="@color/white"
+            android:layout_gravity="center|top"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/baloo_regular"
             android:text="Completa estos datos"
             android:textColor="@color/white"
             />
@@ -41,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/edittext_custom"
             android:hint="Nombre"
@@ -135,16 +145,17 @@
         android:layout_gravity="bottom"
         android:gravity="center">
 
-
         <Button
             android:id="@+id/btn_register"
-            android:layout_width="match_parent"
+            android:layout_width="258dp"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
             android:layout_marginRight="20dp"
-            android:backgroundTint="#0120D0"
-            />
+            android:backgroundTint="@color/black"
+            android:drawableLeft="@drawable/logoCS"
+            android:text="Crear Cuenta"
+            android:textColor="@color/white" />
 
         <ImageView
             android:id="@+id/imageview_go_to_login"

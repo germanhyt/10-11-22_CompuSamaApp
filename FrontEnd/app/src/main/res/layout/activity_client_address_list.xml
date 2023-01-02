@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/boxblack_compusama"
     tools:context=".activities.client.address.list.ClientAddressListActivity">
 
     <include layout="@layout/action_bar" />
@@ -22,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Elige donde recibir tu compra"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="18sp" />
 
@@ -30,7 +31,8 @@
             android:id="@+id/recyclerview_address"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="25dp"/>
+            android:background="@color/white"
+            android:layout_marginTop="25dp" />
 
     </LinearLayout>
 
@@ -38,20 +40,21 @@
         android:id="@+id/btn_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Continuar"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_gravity="bottom"
-        android:textColor="@color/black"
         android:layout_marginBottom="25dp"
-        android:background="@drawable/rounded_button"/>
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/blue_compusama"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_address_create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:backgroundTint="@color/gray"
         android:src="@drawable/ic_add_simple"
-        app:backgroundTint="@color/green"
         android:layout_gravity="bottom|right"
         android:layout_marginBottom="100dp"
         android:layout_marginRight="25dp"/>

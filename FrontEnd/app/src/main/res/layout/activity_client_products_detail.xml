@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/black"
         android:orientation="vertical">
 
         <com.denzcoskun.imageslider.ImageSlider
@@ -27,7 +28,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="25dp"
             android:text="Nombre del producto"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textColorHighlight="@color/blue"
             android:textColorHint="@color/blue"
             android:textSize="20sp" />
@@ -39,7 +40,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="25dp"
             android:text="DESCRIPCION"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -51,6 +52,7 @@
             android:layout_marginRight="25dp"
             android:maxLength="255"
             android:text="Lorem Ipsum is simply dummy Lorem Ipsum is simply dummyLorem Ipsum is simply dummyLorem Ipsum is simply dummyLorem Ipsum is simply dummy"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
 
@@ -82,6 +84,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:text="1"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -99,6 +102,7 @@
             android:layout_marginRight="5dp"
             android:layout_weight="1"
             android:text="0$"
+            android:textColor="@color/white"
             android:textAlignment="textEnd"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -115,6 +119,6 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:layout_gravity="bottom"
-        android:background="@drawable/rounded_button"/>
+        android:backgroundTint="@color/blue_compusama"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
