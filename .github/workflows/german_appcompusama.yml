@@ -1,0 +1,51 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy container app to Azure Web App - appcompusama
+
+on:
+  push:
+    branches:
+      - german
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Log in to registry
+      uses: docker/login-action@v1
+      with:
+        registry: https://acrcompusama002.azurecr.io/
+        username: ${{ secrets.AzureAppService_ContainerUsername_bdda123f934646fa8127b9c1f0b08b89 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_c22944fcbee642d9a6e55b1c2767b931 }}
+
+    - name: Build and push container image to registry
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        tags: acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_bdda123f934646fa8127b9c1f0b08b89 }}/node:${{ github.sha }}
+        file: ./Dockerfile
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+    - name: Deploy to Azure Web App
+      id: deploy-to-webapp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'appcompusama'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_2e177889fc2840e9bca1bc70994efdc6 }}
+        images: 'acrcompusama002.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_bdda123f934646fa8127b9c1f0b08b89 }}/node:${{ github.sha }}'
