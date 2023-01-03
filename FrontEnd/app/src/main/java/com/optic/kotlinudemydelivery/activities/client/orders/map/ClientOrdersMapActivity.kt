@@ -22,6 +22,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.bumptech.glide.Glide
+import com.github.nkzawa.socketio.client.Socket
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
@@ -41,9 +42,11 @@ import java.lang.Exception
 import java.net.URI.create
 import com.google.android.gms.maps.model.LatLng
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
+import com.optic.kotlinudemydelivery.models.SocketEmit
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.providers.OrdersProvider
 import com.optic.kotlinudemydelivery.utils.SharedPref
+import com.optic.kotlinudemydelivery.utils.SocketHandler
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -83,6 +86,8 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     var user: User? = null
     var sharedPref: SharedPref? = null
+
+    var socket: Socket? = null
 
 
     private val locationCallback = object: LocationCallback() {
@@ -132,6 +137,7 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
         imageViewPhone = findViewById(R.id.imageview_phone)
 
         getLastLocation()
+        connectSocket()
 
         textViewClient?.text = "${order?.delivery?.name} ${order?.delivery?.lastname}"
         textViewAddress?.text = order?.address?.address
@@ -156,12 +162,31 @@ class ClientOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     }
 
+    private  fun connectSocket(){
+        SocketHandler.setSocket()
+        socket = SocketHandler.getSocket()
+        socket?.connect()
+
+        socket?.on("position/${order?.id}"){ args ->
+            if (args[0] != null){
+                runOnUiThread {
+                    val data = gson.fromJson(args[0].toString(), SocketEmit::class.java)
+                    removeDeliveryMarker()
+
+                    addDeliveryMarker(data.lat,data.lng)
+                }
+            }
+        }
+    }
+
     override fun onDestroy() {
         super.onDestroy()
-
         if (locationCallback != null && fusedLocationClient != null) {
             fusedLocationClient?.removeLocationUpdates(locationCallback)
         }
+
+        socket?.disconnect()
+
     }
 
 

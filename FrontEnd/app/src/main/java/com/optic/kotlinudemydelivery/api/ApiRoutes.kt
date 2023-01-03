@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 
 class ApiRoutes {
 
-    val API_URL = "http://172.20.25.112:3000/api/"
+    val API_URL = "http://172.20.25.157:3000/api/"
     val retrofit = RetrofitClient()
 
     fun getUsersRoutes(): UsersRoutes {

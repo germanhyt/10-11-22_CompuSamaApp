@@ -18,6 +18,16 @@ const databaseConfig = {
     'password': 'admin'
 }
 
+
+/*const databaseConfig = {
+    'host' : 'db-service-compusama-prod-001.postgres.database.azure.com',
+    'port' : 5432,
+    'database' : 'db-service-compusama-prod-001',
+    'user': 'compusama',
+    'password': 'Vufu0451',
+    'ssl':true
+}*/
+
 const db = pgp(databaseConfig);
 
 module.exports = db;

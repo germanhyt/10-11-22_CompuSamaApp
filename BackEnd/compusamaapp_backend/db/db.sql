@@ -1,4 +1,4 @@
-/* 
+/*
 
 
 DROP TABLE IF EXISTS users CASCADE;
@@ -27,9 +27,6 @@ CREATE TABLE roles(
 	updated_at TIMESTAMP(0) NOT NULL
 );
 
-
-
-
 DROP TABLE IF EXISTS user_has_roles CASCADE;
 CREATE TABLE user_has_roles(
 	id_user BIGSERIAL NOT NULL,
@@ -40,7 +37,7 @@ CREATE TABLE user_has_roles(
 	FOREIGN KEY(id_rol) REFERENCES roles(id) ON UPDATE CASCADE ON DELETE CASCADE,
 	PRIMARY KEY(id_user,id_rol)
 
-)
+);
 
 INSERT INTO roles(
 	name,
@@ -87,7 +84,6 @@ VALUES(
 	'https://cdn-icons-png.flaticon.com/512/2301/2301898.png',
 	'2022-11-04',
 	'2022-11-04'
-
 );
 
 DROP TABLE IF EXISTS categories CASCADE;

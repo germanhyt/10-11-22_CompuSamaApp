@@ -21,6 +21,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.bumptech.glide.Glide
+import com.github.nkzawa.socketio.client.Socket
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -37,9 +38,11 @@ import com.google.android.gms.maps.model.LatLng
 import com.maps.route.extensions.drawRouteOnMap
 import com.optic.kotlinudemydelivery.activities.delivery.home.DeliveryHomeActivity
 import com.optic.kotlinudemydelivery.models.ResponseHttp
+import com.optic.kotlinudemydelivery.models.SocketEmit
 import com.optic.kotlinudemydelivery.models.User
 import com.optic.kotlinudemydelivery.providers.OrdersProvider
 import com.optic.kotlinudemydelivery.utils.SharedPref
+import com.optic.kotlinudemydelivery.utils.SocketHandler
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -81,6 +84,8 @@ class DeliveryOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     var distanceBetween = 0.0f
 
+    var socket: Socket? = null
+
     private val locationCallback = object: LocationCallback() {
 
         override fun onLocationResult(locationResult: LocationResult) {
@@ -88,7 +93,8 @@ class DeliveryOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
             // OBTENEMOS LA LOCALIZACION EN TIEMPO REAL
             var lastLocation = locationResult.lastLocation
             myLocationLatLng = LatLng(lastLocation!!.latitude, lastLocation.longitude)
-            //emitPosition()
+
+            emitPosition()
 
             /*googleMap?.moveCamera(CameraUpdateFactory.newCameraPosition(
                 CameraPosition.builder().target(
@@ -164,6 +170,8 @@ class DeliveryOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         }
 
+        connectSocket()
+
     }
 
     private fun addDeliveryMarker() {
@@ -175,11 +183,29 @@ class DeliveryOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
         )
     }
 
+    private fun emitPosition() {
+        val data = SocketEmit(
+            id_order = order?.id!!,
+            lat = myLocationLatLng?.latitude!!,
+            lng = myLocationLatLng?.longitude!!
+        )
+
+        socket?.emit("position", data.toJson())
+    }
+
+    private  fun connectSocket(){
+        SocketHandler.setSocket()
+        socket = SocketHandler.getSocket()
+        socket?.connect()
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         if (locationCallback != null && fusedLocationClient != null) {
             fusedLocationClient?.removeLocationUpdates(locationCallback)
         }
+
+        socket?.disconnect()
 
     }
 
@@ -336,6 +362,7 @@ class DeliveryOrdersMapActivity : AppCompatActivity(), OnMapReadyCallback {
             requestPermissions()
         }
     }
+
 
     private fun requestNewLocationData() {
         val locationRequest = LocationRequest.create().apply {
